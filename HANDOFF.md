@@ -23,12 +23,11 @@ npm run dev
 3. Open http://localhost:3460 in your browser. That is your local preview.
 4. Open Claude Code in the SODASHOP folder. Ask it things like "update the tour dates for next week" or "raise the 44 oz price to $7.25". It will edit, build, and push.
 
-## Hosting on your own Vercel account (recommended)
+## Hosting
 
-1. Create a free account at https://vercel.com and sign in with GitHub.
-2. Click "Add New Project", pick the SODASHOP repo, accept the defaults, Deploy.
-3. From then on, every push to `main` on GitHub redeploys the site automatically. No CLI needed.
-4. When you are ready to retire Squarespace: Vercel > Project > Settings > Domains > add `jukeboxsoda.com` and follow the DNS instructions it shows you.
+You do not need a Vercel account. The GitHub repo is already connected to Vercel, so every push to `main` rebuilds and publishes the live site automatically within about a minute. Your whole workflow is: edit, `git push`, refresh the site.
+
+When you are ready to retire Squarespace and point `jukeboxsoda.com` at the new site, ask Jacob. That is a one-time domain change in the Vercel dashboard plus a DNS update at wherever the domain is registered.
 
 ## Day-to-day
 

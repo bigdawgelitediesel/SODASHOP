@@ -35,10 +35,9 @@ npm install
 npm run dev            # local preview at http://localhost:3460
 npm run build          # must pass before committing
 git add -A && git commit -m "..." && git push
-vercel deploy --prod --yes
 ```
 
-If this Vercel project is connected to GitHub (Settings > Git in the Vercel dashboard), a push to `main` deploys automatically and the `vercel deploy` step is not needed.
+The repo is connected to Vercel. A push to `main` deploys to production automatically. Do not run `vercel deploy` unless the Git connection is broken.
 
 Always run `npm run build` before pushing. TypeScript errors fail the build.
 
