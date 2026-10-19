@@ -27,7 +27,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/30" />
         <div className="relative mx-auto max-w-6xl px-4 py-24 md:py-36 text-center">
-          <p className="font-script text-3xl md:text-4xl text-yellow">Rapid City, South Dakota</p>
+          <p className="font-script text-3xl md:text-4xl text-yellow">Salt Lake City, Utah</p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl mt-3 leading-[0.95] drop-shadow-[4px_4px_0_#e23b3f]">
             It&apos;s not just a soda.<br />It&apos;s your soundtrack.
           </h1>
