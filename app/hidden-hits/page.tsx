@@ -28,7 +28,7 @@ export default function HiddenHitsPage() {
           <ol className="mt-8 space-y-5">
             {steps.map((s) => (
               <li key={s.n} className="card p-5 flex gap-5 items-start">
-                <span className="vinyl h-14 w-14 shrink-0 flex items-center justify-center font-display text-cream text-xl relative z-10"><span className="relative z-20 drop-shadow">{s.n}</span></span>
+                <span className="h-14 w-14 shrink-0 rounded-full bg-ink text-yellow flex items-center justify-center font-display text-2xl border-3 border-yellow">{s.n}</span>
                 <div>
                   <h3 className="font-display text-xl">{s.title}</h3>
                   <p className="text-ink/75 mt-1">{s.body}</p>
