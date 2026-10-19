@@ -8,7 +8,7 @@ export const site = {
   facebook: "https://www.facebook.com/profile.php?id=61572962648824",
   instagram: "https://www.instagram.com/jukeboxsodashop/",
   tiktok: "https://www.tiktok.com/@jukeboxsodashop",
-  originalStore: "https://www.jukeboxsoda.com/store",
+  originalStore: "https://pepper-rabbit-3jjr.squarespace.com/store",
 };
 
 export type Drink = { name: string; mix: string; base?: string; star?: boolean };
