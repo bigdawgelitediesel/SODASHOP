@@ -5,3 +5,18 @@
 - Repo created and cloned to `C:\Users\Parts\Desktop\SODASHOP`.
 - Instruction: everything from this chat gets saved and pushed here.
 - Project details not yet captured. Next: what the soda shop is, where, and what we are building first.
+
+### Site rebuild (same day)
+
+- Pulled every page of jukeboxsoda.com (Squarespace): home, about, contact, hidden hits, store + 5 product pages. Six menus and the tour poster were image-only, so all drinks, prices, add-ins, event tiers, and tour stops were transcribed into `lib/data.ts`.
+- Built a Next.js 16 + Tailwind 4 site with 8 routes: /, /menu, /tour, /events, /hidden-hits, /store, /about, /contact.
+- Deployed to Vercel: https://jukebox-soda-shop.vercel.app (project `jukebox-soda-shop`). Deploy with `vercel deploy --prod --yes`.
+- Verified desktop (1440) and mobile (390) with headless Chrome: no horizontal overflow on any page.
+
+Open items for Jacob:
+- The ✸ marker on the original main menu has no legend. Rendered as a "shop favorite" star; confirm meaning or remove (`star: true` in data.ts).
+- Store checkout still runs through Squarespace product pages. To sell directly, add Stripe/Shopify later.
+- Contact form is mailto-based. A real form backend (Formspree, Resend) is a small follow-up.
+- The trailer photo shows a DoorDash sticker but no listing was found online. Add the link if one exists.
+- Custom domain: point jukeboxsoda.com at Vercel when ready to switch off Squarespace.
+- Tour dates are hard-coded per week in `tourWeek`. Update weekly, or wire to a Google Sheet later.
