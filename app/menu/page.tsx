@@ -123,16 +123,14 @@ export default function MenuPage() {
               <h3 className="font-display text-2xl">Extras</h3>
               <span className="pill bg-yellow">{extraAddIns.price} each</span>
             </div>
-            <div className="mt-4 grid gap-4 sm:grid-cols-2">
-              {extraAddIns.groups.map((g) => (
-                <div key={g.name}>
-                  <h4 className="font-display text-lg">{g.name}</h4>
-                  <ul className="mt-1 text-ink/75">
-                    {g.items.map((i) => <li key={i}>{i}</li>)}
-                  </ul>
+            {extraAddIns.groups.map((g, i) => (
+              <div key={g.name}>
+                <h4 className={`font-display text-lg ${i === 0 ? "mt-4" : "mt-6"}`}>{g.name}</h4>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {g.items.map((item) => <span key={item} className="rounded-full bg-cream border border-ink/20 px-3 py-1 text-sm">{item}</span>)}
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

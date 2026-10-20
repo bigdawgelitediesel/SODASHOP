@@ -32,3 +32,4 @@ Open items for Jacob:
 - Star meaning confirmed: starred drinks can be made completely sugar free except for purées (natural sugar). Added the note under the drink cards on /menu (`sugarFreeNote`) and changed the star tooltip.
 - Starred "Deep in the Gulp of Texas" (sugar-free option).
 - Starred "Hydro Twist" (sugar-free option).
+- Extras add-ins on /menu now use the same rounded-chip style as Syrups.
