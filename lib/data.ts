@@ -105,7 +105,7 @@ export const caffeineShot = { label: "Caffeine shots", detail: "100 mg per shot"
 
 export const syrupAddIns = {
   price: "$0.50",
-  regular: ["Blackberry", "Blue Raspberry", "Butterscotch", "Cheesecake", "Cherry", "Coconut", "Cranberry", "Guava", "Green Apple", "Red Grapefruit", "Lavender", "Mango", "Marshmallow", "Orange", "Passion Fruit", "Peach", "Pineapple", "Pomegranate", "Raspberry", "Strawberry", "Vanilla", "Watermelon"],
+  regular: ["Blackberry", "Blue Raspberry", "Butterscotch", "Cheesecake", "Cherry", "Coconut", "Cranberry", "Guava", "Green Apple", "Red Grapefruit", "Lavender", "Mango", "Toasted Marshmallow", "Orange", "Passion Fruit", "Peach", "Pineapple", "Pomegranate", "Raspberry", "Strawberry", "Vanilla", "Watermelon"],
   sugarFree: ["Blue Raspberry", "Cherry", "Coconut", "Peach", "Pineapple", "Pomegranate", "Raspberry", "Strawberry", "Vanilla"],
 };
 

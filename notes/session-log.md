@@ -54,3 +54,4 @@ Open items for Jacob:
 - Added a cutout photo (with lime) to "Oops! I Bit It Again" on the Fall Seasonal menu (`oops-i-bit-it-again-cutout.webp`).
 - Added a cutout photo to "Apple Bottom Sips"; all three Fall Seasonal drinks now have photos (`photo` on `fallMenu.drinks`).
 - Added Lavender to the syrup add-ins.
+- Renamed the Marshmallow syrup to Toasted Marshmallow.
