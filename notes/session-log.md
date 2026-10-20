@@ -57,3 +57,4 @@ Open items for Jacob:
 - Renamed the Marshmallow syrup to Toasted Marshmallow.
 - Syrup add-ins are now listed alphabetically.
 - Brews Just Wanna Have Fun and Twist and Sip now say Toasted Marshmallow.
+- Tiny Toons blurb now credits Sugar & Soul Home Bakery.
