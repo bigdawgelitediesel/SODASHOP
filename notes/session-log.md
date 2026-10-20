@@ -41,3 +41,4 @@ Open items for Jacob:
 - Apple Tracks blurb now says "homemade caramel".
 - Replaced the family photo on Home and About with the new crew-in-front-of-the-trailer photo (`public/img/family-trailer.webp`). Old `photo-1432.webp` is no longer used.
 - Added a teal "Hidden Hits" button to the home page hero, next to See the Menu / Tour Dates / Book an Event.
+- Home hero background is now a daytime trailer photo (`public/img/trailer-day.webp`), cropped above the old (801) number painted on the trailer. `trailer-night.webp` is still used on About and as the social share image.

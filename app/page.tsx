@@ -18,8 +18,8 @@ export default function Home() {
       {/* HERO */}
       <section className="relative bg-ink text-cream overflow-hidden border-b-4 border-ink">
         <Image
-          src="/img/trailer-night.webp"
-          alt="The Jukebox Soda Shop trailer lit up at night"
+          src="/img/trailer-day.webp"
+          alt="The Jukebox Soda Shop trailer with its service window open"
           fill
           priority
           className="object-cover opacity-45"
