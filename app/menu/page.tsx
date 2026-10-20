@@ -6,6 +6,7 @@ import {
   syrupAddIns, extraAddIns, backstage, sweetTreats, fallMenu, sugarFreeNote,
 } from "@/lib/data";
 import { PageHero, SectionTitle, MenuCard, DrinkRow, Star } from "@/components/ui";
+import { FacebookIcon } from "@/components/Socials";
 
 export const metadata: Metadata = {
   title: "Menu",
@@ -178,11 +179,17 @@ export default function MenuPage() {
               </ul>
               {"maker" in t && t.maker && (
                 <div className="mt-5 pt-4 border-t-2 border-dashed border-ink/15 flex items-center gap-3">
-                  <Image src={t.maker.logo} alt={`${t.maker.name} logo`} width={96} height={96} className="shrink-0" />
-                  <p className="text-sm text-ink/75">
+                  <a href={t.maker.facebook} target="_blank" rel="noopener" className="shrink-0" aria-label={`${t.maker.name} on Facebook`}>
+                    <Image src={t.maker.logo} alt={`${t.maker.name} logo`} width={96} height={96} />
+                  </a>
+                  <div className="text-sm text-ink/75">
                     <span className="font-script text-red text-base">Baked by</span><br />
-                    <span className="font-display text-lg text-ink">{t.maker.name}</span>
-                  </p>
+                    <a href={t.maker.facebook} target="_blank" rel="noopener" className="font-display text-lg text-ink hover:text-red">{t.maker.name}</a>
+                    <a href={t.maker.facebook} target="_blank" rel="noopener"
+                       className="mt-2 flex w-fit items-center gap-1.5 rounded-full bg-[#1877F2] text-white px-3 py-1 text-xs font-bold hover:bg-ink transition">
+                      <FacebookIcon className="h-4 w-4" /> Find them on Facebook
+                    </a>
+                  </div>
                 </div>
               )}
             </div>

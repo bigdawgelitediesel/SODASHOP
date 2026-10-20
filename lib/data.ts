@@ -157,7 +157,7 @@ export const sweetTreats = [
     blurb: "Delicious bites from The Cake Pop Kitchen.",
     listLabel: "Flavors",
     list: ["Dirty Dr Pepper", "Oreo Dirt Pie", "Cookies and Cream", "Birthday Cake", "Fudge Brownie"],
-    maker: { name: "The Cake Pop Kitchen", logo: "/img/cake-pop-kitchen-logo.webp" },
+    maker: { name: "The Cake Pop Kitchen", facebook: "https://www.facebook.com/share/1CFEPuqjks/", logo: "/img/cake-pop-kitchen-logo.webp" },
   },
   {
     name: "Apple Tracks",
@@ -174,7 +174,7 @@ export const sweetTreats = [
     blurb: "Big cookies. Big smiles. Ask about our current seasonal flavor.",
     listLabel: "Flavors",
     list: ["Chocolate Chip", "Seasonal Flavor"],
-    maker: { name: "Sugar & Soul Home Bakery", logo: "/img/sugar-and-soul-logo.webp" },
+    maker: { name: "Sugar & Soul Home Bakery", facebook: "https://www.facebook.com/share/1C81hzTDyT/", logo: "/img/sugar-and-soul-logo.webp" },
   },
 ];
 
