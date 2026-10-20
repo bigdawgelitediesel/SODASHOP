@@ -192,7 +192,7 @@ export const fallMenu: {
   season: "Fall Seasonal Menu",
   dates: "October through December 2026",
   drinks: [
-    { tag: "Classic Hit", name: "Spice Up Your Life", mix: "Dr Pepper + Cinnamon Vanilla + Pumpkin Spice + Cream", photo: "/img/spice-up-your-life-cup.webp" },
+    { tag: "Classic Hit", name: "Spice Up Your Life", mix: "Dr Pepper + Cinnamon Vanilla + Pumpkin Spice + Cream", photo: "/img/spice-up-your-life-cutout.webp" },
     { tag: "Cool Rhythm", name: "Apple Bottom Sips", mix: "Water + Green Apple + Raspberry + Mango Puree + Vanilla Cream" },
     { tag: "High Note", name: "Oops! I Bit It Again", mix: "Ultra White Monster + Sprite + Mountain Dew + Green Apple + Watermelon + Fresh Lime" },
   ],
