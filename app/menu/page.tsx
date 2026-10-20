@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import {
   classicHitGroups, highNotes, coolRhythms, kidsBop, sizes, pricing, kidsPrice, caffeineShot,
@@ -175,6 +176,15 @@ export default function MenuPage() {
               <ul className="mt-1 flex flex-wrap gap-2">
                 {t.list.map((i) => <li key={i} className="rounded-full bg-cream border border-ink/20 px-3 py-1 text-sm">{i}</li>)}
               </ul>
+              {"maker" in t && t.maker && (
+                <div className="mt-5 pt-4 border-t-2 border-dashed border-ink/15 flex items-center gap-3">
+                  <Image src={t.maker.logo} alt={`${t.maker.name} logo`} width={96} height={96} className="shrink-0" />
+                  <p className="text-sm text-ink/75">
+                    <span className="font-script text-red text-base">Baked by</span><br />
+                    <span className="font-display text-lg text-ink">{t.maker.name}</span>
+                  </p>
+                </div>
+              )}
             </div>
           ))}
         </div>

@@ -35,3 +35,4 @@ Open items for Jacob:
 - Extras add-ins on /menu now use the same rounded-chip style as Syrups.
 - Added plain "Cream" to the Creams extras.
 - Renamed the "Fresh" extras heading to "Fresh Fruit".
+- Added the Sugar & Soul Home Bakery logo ("Baked by") to the Tiny Toons card on /menu (`maker` on the sweet treat, logo at `public/img/sugar-and-soul-logo.webp`).

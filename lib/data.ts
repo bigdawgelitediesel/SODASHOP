@@ -173,6 +173,7 @@ export const sweetTreats = [
     blurb: "Big cookies. Big smiles. Ask about our current seasonal flavor.",
     listLabel: "Flavors",
     list: ["Chocolate Chip", "Seasonal Flavor"],
+    maker: { name: "Sugar & Soul Home Bakery", logo: "/img/sugar-and-soul-logo.webp" },
   },
 ];
 
