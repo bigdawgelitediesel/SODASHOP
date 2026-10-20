@@ -209,9 +209,17 @@ export default function MenuPage() {
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {fallMenu.drinks.map((d) => (
               <div key={d.name} className="bg-cream text-ink rounded-2xl border-3 border-ink p-6 shadow-[6px_6px_0_#16213a]">
-                <span className="pill bg-yellow">{d.tag}</span>
-                <h3 className="font-display text-2xl mt-3">{d.name}</h3>
-                <p className="text-ink/75 mt-2">{d.mix}</p>
+                <div className="flex items-start gap-4">
+                  <div className="flex-1">
+                    <span className="pill bg-yellow">{d.tag}</span>
+                    <h3 className="font-display text-2xl mt-3">{d.name}</h3>
+                    <p className="text-ink/75 mt-2">{d.mix}</p>
+                  </div>
+                  {d.photo && (
+                    <Image src={d.photo} alt={`${d.name}, topped with cream`} width={112} height={112}
+                           className="shrink-0 h-24 w-24 md:h-28 md:w-28 rounded-full border-3 border-ink object-cover" />
+                  )}
+                </div>
               </div>
             ))}
           </div>

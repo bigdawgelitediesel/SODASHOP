@@ -46,3 +46,4 @@ Open items for Jacob:
 - Header logo now has a transparent background (`public/img/logo-clear.webp`) so it blends into the cream nav. The footer (navy) keeps the original white-backed logo, now `public/img/logo-sticker.webp`.
 - Moved "Another One Bites the Apple" from Backstage Cool Rhythms to Backstage Classic Hits.
 - Backstage Pass drinks now list alphabetically in each section (`byName` in `lib/data.ts`), so new ones land in order automatically.
+- Test: added a round top-down photo of "Spice Up Your Life" beside its Fall Seasonal description (`photo` field on `fallMenu.drinks`, image `public/img/spice-up-your-life.webp`).
