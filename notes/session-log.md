@@ -55,3 +55,4 @@ Open items for Jacob:
 - Added a cutout photo to "Apple Bottom Sips"; all three Fall Seasonal drinks now have photos (`photo` on `fallMenu.drinks`).
 - Added Lavender to the syrup add-ins.
 - Renamed the Marshmallow syrup to Toasted Marshmallow.
+- Syrup add-ins are now listed alphabetically.
