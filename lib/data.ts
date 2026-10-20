@@ -79,7 +79,7 @@ export const coolRhythms: Drink[] = [
   { name: "Here Comes the Breeze", mix: "Water + Sugar-Free Coconut + Sugar-Free Vanilla + Strawberry Puree + Coconut Cream", star: true },
   { name: "Good Hydrations", mix: "Soda Water + Pomegranate + Passion Fruit + Watermelon + Grapefruit" },
   { name: "Bridge Over Chilled Water", mix: "Water + Sugar-Free Vanilla + Sugar-Free Peach + Sugar-Free Pineapple + Fresh Lime + Raspberry Puree", star: true },
-  { name: "Hydro Twist", mix: "Soda Water + Pomegranate + Raspberry Puree + Fresh Lime + Coconut Cream" },
+  { name: "Hydro Twist", mix: "Soda Water + Pomegranate + Raspberry Puree + Fresh Lime + Coconut Cream", star: true },
 ];
 
 export const kidsBop: Drink[] = [

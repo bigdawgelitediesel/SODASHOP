@@ -31,3 +31,4 @@ Open items for Jacob:
 - Added Sprite Zero to the Sprite section heading (`extraVariants` in `lib/data.ts`).
 - Star meaning confirmed: starred drinks can be made completely sugar free except for purées (natural sugar). Added the note under the drink cards on /menu (`sugarFreeNote`) and changed the star tooltip.
 - Starred "Deep in the Gulp of Texas" (sugar-free option).
+- Starred "Hydro Twist" (sugar-free option).
