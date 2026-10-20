@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
-  classicHits, highNotes, coolRhythms, kidsBop, sizes, pricing, kidsPrice, caffeineShot,
+  classicHitGroups, highNotes, coolRhythms, kidsBop, sizes, pricing, kidsPrice, caffeineShot,
   syrupAddIns, extraAddIns, backstage, sweetTreats, fallMenu,
 } from "@/lib/data";
 import { PageHero, SectionTitle, MenuCard, DrinkRow } from "@/components/ui";
@@ -40,7 +40,7 @@ export default function MenuPage() {
       <section className="mx-auto max-w-6xl px-4 py-16">
         <div className="grid gap-8 lg:grid-cols-2">
           <div id="classic-hits" className="scroll-mt-36">
-            <MenuCard title="Classic Hits" sub="Mixed sodas" drinks={classicHits} tone="green" />
+            <MenuCard title="Classic Hits" sub="Mixed sodas" groups={classicHitGroups} tone="green" />
           </div>
           <div className="flex flex-col gap-8">
             <div id="high-notes" className="scroll-mt-36">

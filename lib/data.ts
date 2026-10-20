@@ -39,6 +39,21 @@ export const classicHits: Drink[] = [
   { name: "Purple Reign", base: "Lemonade", mix: "Lemonade + Lavender + Vanilla" },
 ];
 
+// Classic Hits grouped by soda family on the menu. "Diet X" and "X Zero" fall under X.
+export type DrinkGroup = { title: string; variants: string[]; drinks: Drink[] };
+
+const sodaFamily = (base: string) => base.replace(/^Diet /, "").replace(/ Zero$/, "");
+
+export const classicHitGroups: DrinkGroup[] = classicHits.reduce<DrinkGroup[]>((groups, d) => {
+  const base = d.base ?? "Other";
+  const title = sodaFamily(base);
+  let g = groups.find((x) => x.title === title);
+  if (!g) groups.push((g = { title, variants: [title], drinks: [] }));
+  if (!g.variants.includes(base)) g.variants.push(base);
+  g.drinks.push(d);
+  return groups;
+}, []);
+
 export const highNotes: Drink[] = [
   { name: "Hit Me with Your Best Pop", mix: "White Ultra Monster + Mountain Dew + Orange + Passionfruit + Strawberry + Coconut Cream" },
   { name: "Drink Me Up Before You Go Go", mix: "White Ultra Monster + Sprite + Pineapple + Grapefruit + Mango Puree + Coconut Cream" },

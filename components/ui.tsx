@@ -1,4 +1,4 @@
-import type { Drink } from "@/lib/data";
+import type { Drink, DrinkGroup } from "@/lib/data";
 
 export function PageHero({
   eyebrow,
@@ -58,12 +58,14 @@ export function MenuCard({
   title,
   sub,
   drinks,
+  groups,
   tone,
   children,
 }: {
   title: string;
   sub: string;
-  drinks: Drink[];
+  drinks?: Drink[];
+  groups?: DrinkGroup[];
   tone: "green" | "red" | "blue" | "yellow";
   children?: React.ReactNode;
 }) {
@@ -80,9 +82,25 @@ export function MenuCard({
         <h3 className="font-display text-2xl leading-none">{title}</h3>
         <p className="font-script text-lg opacity-90 mt-1">{sub}</p>
       </div>
-      <ul className="px-5 py-2 flex-1">
-        {drinks.map((d) => <DrinkRow key={d.name} d={d} accent={accent} />)}
-      </ul>
+      {groups ? (
+        <div className="px-5 py-2 flex-1">
+          {groups.map((g) => (
+            <div key={g.title} className="mt-4 first:mt-2">
+              <h4 className="font-display text-xl text-ink border-b-2 border-ink pb-1">
+                {g.title}
+                {g.variants.length > 1 && (
+                  <span className="block font-body font-bold text-sm text-ink/60 mt-0.5">{g.variants.join(" · ")}</span>
+                )}
+              </h4>
+              <ul>{g.drinks.map((d) => <DrinkRow key={d.name} d={d} accent={accent} />)}</ul>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <ul className="px-5 py-2 flex-1">
+          {drinks?.map((d) => <DrinkRow key={d.name} d={d} accent={accent} />)}
+        </ul>
+      )}
       {children && <div className="px-5 pb-5">{children}</div>}
     </div>
   );
