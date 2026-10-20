@@ -146,6 +146,7 @@ export const backstage = {
   ] as Drink[],
   coolRhythms: [
     { name: "Steal My Sunshine Splash", mix: "Water + Guava + Pineapple + Coconut" },
+    { name: "Another One Bites the Apple", mix: "Sprite + Blue Raspberry + Green Apple + Fresh Lime + Vanilla Cream" },
   ] as Drink[],
 };
 
