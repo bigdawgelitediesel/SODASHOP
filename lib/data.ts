@@ -26,7 +26,7 @@ export const classicHits: Drink[] = [
   { name: "Life Is But a Cream", base: "Fanta", mix: "Fanta Orange + Vanilla + Cream" },
   { name: "I Wanna Pop with Somebody", base: "Fanta", mix: "Fanta Orange + Strawberry + Strawberry Popping Pearls + Vanilla Cream" },
   { name: "Total Eclipse of the Pop", base: "Dr Pepper", mix: "Dr Pepper + Vanilla + Strawberry Puree + Coconut Cream" },
-  { name: "Deep in the Gulp of Texas", base: "Dr Pepper Zero", mix: "Dr Pepper + Vanilla + Coconut Cream" },
+  { name: "Deep in the Gulp of Texas", base: "Dr Pepper Zero", mix: "Dr Pepper + Vanilla + Coconut Cream", star: true },
   { name: "Cream Berry Rhapsody", base: "Dr Pepper", mix: "Dr Pepper + Raspberry + Vanilla Cream" },
   { name: "Twist You Like a Hurricane", base: "Dr Pepper", mix: "Dr Pepper + Cheesecake + Cherry + Vanilla Cream" },
   { name: "Pour Some Cola on Me", base: "Coke", mix: "Coke + Coconut + Fresh Lime" },

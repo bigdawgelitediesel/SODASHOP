@@ -30,3 +30,4 @@ Open items for Jacob:
 - Classic Hits on /menu are now grouped by soda family (Mountain Dew, Sprite, Fanta, Dr Pepper, Coke, Root Beer, Lemonade), built automatically from each drink's `base` (`classicHitGroups` in `lib/data.ts`).
 - Added Sprite Zero to the Sprite section heading (`extraVariants` in `lib/data.ts`).
 - Star meaning confirmed: starred drinks can be made completely sugar free except for purées (natural sugar). Added the note under the drink cards on /menu (`sugarFreeNote`) and changed the star tooltip.
+- Starred "Deep in the Gulp of Texas" (sugar-free option).
