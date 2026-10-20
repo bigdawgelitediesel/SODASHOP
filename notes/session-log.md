@@ -38,3 +38,4 @@ Open items for Jacob:
 - Added the Sugar & Soul Home Bakery logo ("Baked by") to the Tiny Toons card on /menu (`maker` on the sweet treat, logo at `public/img/sugar-and-soul-logo.webp`).
 - Added The Cake Pop Kitchen logo ("Baked by") to the Cake Pops card on /menu.
 - Linked The Cake Pop Kitchen and Sugar & Soul Home Bakery to their Facebook pages from their "Baked by" credits on /menu (`maker.facebook`).
+- Apple Tracks blurb now says "homemade caramel".

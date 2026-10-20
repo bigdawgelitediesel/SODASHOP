@@ -163,7 +163,7 @@ export const sweetTreats = [
     name: "Apple Tracks",
     price: "$8",
     unit: "",
-    blurb: "Fresh apples, sweet toppings. Choose a red or green apple with caramel and one topping included. Additional toppings $0.50 each.",
+    blurb: "Fresh apples, sweet toppings. Choose a red or green apple with homemade caramel and one topping included. Additional toppings $0.50 each.",
     listLabel: "Toppings",
     list: ["Mini Chocolate Chips", "Mini M&Ms", "Heath Pieces", "Crushed Oreos", "Mini Marshmallows"],
   },
