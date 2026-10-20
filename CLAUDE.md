@@ -11,7 +11,7 @@ This repo is the website for The Jukebox Soda Shop, a family-owned mobile dirty-
 - `app/<route>/page.tsx` are the pages: `/` (home), `/menu`, `/tour`, `/events`, `/hidden-hits`, `/store`, `/about`, `/contact`.
 - `components/` holds Nav, Footer, Socials, ContactForm, and shared UI (PageHero, MenuCard, DrinkRow).
 - `app/globals.css` has the color tokens and the retro `.card` / `.btn` / `.pill` styles. Keep custom classes inside `@layer components` so Tailwind utilities can override them.
-- `public/img` has the logo, trailer photos, and product photos. `public/menus` has the original printable menu PNGs.
+- `public/img` has the logo (`logo-clear.webp` transparent for light backgrounds, `logo-sticker.webp` white-backed for dark), trailer photos, and product photos. `public/menus` has the original printable menu PNGs.
 - `notes/session-log.md` is the running project log. Append to it when you make meaningful changes.
 
 ## Common tasks

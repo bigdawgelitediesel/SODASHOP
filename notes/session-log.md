@@ -43,3 +43,4 @@ Open items for Jacob:
 - Added a teal "Hidden Hits" button to the home page hero, next to See the Menu / Tour Dates / Book an Event.
 - Home hero background is now a daytime trailer photo (`public/img/trailer-day.webp`), cropped above the old (801) number painted on the trailer. `trailer-night.webp` is still used on About and as the social share image.
 - Added "Another One Bites the Apple" to Backstage Pass Cool Rhythms.
+- Header logo now has a transparent background (`public/img/logo-clear.webp`) so it blends into the cream nav. The footer (navy) keeps the original white-backed logo, now `public/img/logo-sticker.webp`.

@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="bg-ink text-cream">
         <div className="mx-auto max-w-6xl px-4 py-14 grid gap-10 md:grid-cols-3">
           <div>
-            <Image src="/img/logo.webp" alt="" width={120} height={120} className="h-24 w-24 object-contain" />
+            <Image src="/img/logo-sticker.webp" alt="" width={120} height={120} className="h-24 w-24 object-contain" />
             <p className="font-script text-2xl mt-4 text-yellow">{site.tagline}</p>
             <p className="mt-3 text-cream/80 max-w-xs">
               Family-owned mobile soda shop serving Rapid City and the Black Hills with handcrafted dirty sodas, waters, energy drinks, and treats.

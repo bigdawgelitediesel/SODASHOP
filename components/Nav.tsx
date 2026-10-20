@@ -23,7 +23,7 @@ export default function Nav() {
     <header className="sticky top-0 z-50 bg-cream/95 backdrop-blur border-b-4 border-ink">
       <div className="mx-auto max-w-6xl px-4 flex items-center justify-between h-20">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <Image src="/img/logo.webp" alt="The Jukebox Soda Shop" width={64} height={64} className="h-14 w-14 object-contain" priority />
+          <Image src="/img/logo-clear.webp" alt="The Jukebox Soda Shop" width={64} height={64} className="h-14 w-14 object-contain" priority />
           <span className="font-display text-xl leading-tight text-ink hidden sm:block">
             The Jukebox<br /><span className="text-red">Soda Shop</span>
           </span>
