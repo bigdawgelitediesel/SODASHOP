@@ -34,7 +34,7 @@ export function SectionTitle({ kicker, title, center = true }: { kicker?: string
 
 export function Star() {
   return (
-    <span title="Shop favorite" aria-label="Shop favorite" className="inline-block text-yellow drop-shadow-[1px_1px_0_#16213a] ml-1 align-middle">
+    <span title="Can be made sugar free" aria-label="Can be made sugar free" className="inline-block text-yellow drop-shadow-[1px_1px_0_#16213a] ml-1 align-middle">
       <svg viewBox="0 0 24 24" className="h-4 w-4 inline" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.7-5.4 4.8 1.6 7-6.2-3.7L5.8 21l1.6-7L2 9.3l7.1-.7z"/></svg>
     </span>
   );

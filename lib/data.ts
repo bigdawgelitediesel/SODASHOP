@@ -63,6 +63,8 @@ for (const g of classicHitGroups) {
   for (const v of extraVariants[g.title] ?? []) if (!g.variants.includes(v)) g.variants.push(v);
 }
 
+export const sugarFreeNote = "Drinks marked with a star can be made completely sugar free, except for the purées, which contain natural sugar.";
+
 export const highNotes: Drink[] = [
   { name: "Hit Me with Your Best Pop", mix: "White Ultra Monster + Mountain Dew + Orange + Passionfruit + Strawberry + Coconut Cream" },
   { name: "Drink Me Up Before You Go Go", mix: "White Ultra Monster + Sprite + Pineapple + Grapefruit + Mango Puree + Coconut Cream" },

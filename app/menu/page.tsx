@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   classicHitGroups, highNotes, coolRhythms, kidsBop, sizes, pricing, kidsPrice, caffeineShot,
-  syrupAddIns, extraAddIns, backstage, sweetTreats, fallMenu,
+  syrupAddIns, extraAddIns, backstage, sweetTreats, fallMenu, sugarFreeNote,
 } from "@/lib/data";
-import { PageHero, SectionTitle, MenuCard, DrinkRow } from "@/components/ui";
+import { PageHero, SectionTitle, MenuCard, DrinkRow, Star } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Menu",
@@ -58,6 +58,9 @@ export default function MenuPage() {
             </div>
           </div>
         </div>
+        <p className="mt-8 card px-5 py-4 text-center font-bold">
+          <Star /> {sugarFreeNote}
+        </p>
       </section>
 
       {/* PRICING */}

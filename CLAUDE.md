@@ -18,7 +18,7 @@ This repo is the website for The Jukebox Soda Shop, a family-owned mobile dirty-
 
 **Update weekly tour dates:** edit `tourWeek` in `lib/data.ts` (range + the 7 stops). Keep `off: true` for days off. Then build, commit, push, deploy.
 
-**Add or change a drink:** add to the right array in `lib/data.ts` (`classicHits`, `highNotes`, `coolRhythms`, `kidsBop`, or `backstage.*`). Fields: `name`, `mix`, `base` (the soda; Classic Hits are grouped on the menu by soda family, with "Diet X" and "X Zero" under X) and `star` (shows a "shop favorite" star).
+**Add or change a drink:** add to the right array in `lib/data.ts` (`classicHits`, `highNotes`, `coolRhythms`, `kidsBop`, or `backstage.*`). Fields: `name`, `mix`, `base` (the soda; Classic Hits are grouped on the menu by soda family, with "Diet X" and "X Zero" under X) and `star` (marks a drink that can be made sugar free except for purées; explained by `sugarFreeNote`).
 
 **Change prices:** `pricing`, `kidsPrice`, `caffeineShot`, `syrupAddIns.price`, `extraAddIns.price`, `eventTiers`, `eventAddOns`, `eventTerms`.
 
@@ -51,7 +51,6 @@ Always run `npm run build` before pushing. TypeScript errors fail the build.
 
 ## Open items
 
-- The original menu marked some drinks with a star symbol with no legend. They are rendered as "shop favorite". Confirm the meaning with the owner or remove `star: true`.
 - Custom domain: jukeboxsoda.com still points at Squarespace. Add it in Vercel (Settings > Domains) and update DNS when ready to switch.
 - Tour dates are hard-coded weekly. A Google Sheet or simple JSON feed could replace that later.
 - A real contact-form backend (Formspree, Resend) would replace the mailto form.
