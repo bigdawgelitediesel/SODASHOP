@@ -115,7 +115,7 @@ export const extraAddIns = {
     { name: "Popping Pearls", items: ["Peach", "Passion Fruit", "Strawberry", "Coconut"] },
     { name: "Purees", items: ["Mango", "Peach", "Raspberry", "Strawberry"] },
     { name: "Creams", items: ["Cream", "Vanilla Cream", "Coconut Cream"] },
-    { name: "Fresh", items: ["Fresh Lime"] },
+    { name: "Fresh Fruit", items: ["Fresh Lime"] },
     { name: "Gummy Candies", items: ["Shark", "Frog", "Butterfly"] },
   ],
 };

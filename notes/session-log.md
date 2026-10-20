@@ -34,3 +34,4 @@ Open items for Jacob:
 - Starred "Hydro Twist" (sugar-free option).
 - Extras add-ins on /menu now use the same rounded-chip style as Syrups.
 - Added plain "Cream" to the Creams extras.
+- Renamed the "Fresh" extras heading to "Fresh Fruit".
