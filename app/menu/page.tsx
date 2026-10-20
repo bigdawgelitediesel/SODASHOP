@@ -216,8 +216,8 @@ export default function MenuPage() {
                     <p className="text-ink/75 mt-2">{d.mix}</p>
                   </div>
                   {d.photo && (
-                    <Image src={d.photo} alt={`${d.name}, topped with cream`} width={112} height={112}
-                           className="shrink-0 h-24 w-24 md:h-28 md:w-28 rounded-full border-3 border-ink object-cover" />
+                    <Image src={d.photo} alt={`${d.name}, topped with cream`} width={160} height={100}
+                           className="shrink-0 h-20 w-32 rounded-[50%] border-3 border-ink object-cover" />
                   )}
                 </div>
               </div>

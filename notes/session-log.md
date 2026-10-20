@@ -47,3 +47,4 @@ Open items for Jacob:
 - Moved "Another One Bites the Apple" from Backstage Cool Rhythms to Backstage Classic Hits.
 - Backstage Pass drinks now list alphabetically in each section (`byName` in `lib/data.ts`), so new ones land in order automatically.
 - Test: added a round top-down photo of "Spice Up Your Life" beside its Fall Seasonal description (`photo` field on `fallMenu.drinks`, image `public/img/spice-up-your-life.webp`).
+- Spice Up Your Life photo is now an oval matching the cup rim (`spice-up-your-life-top.webp`).
