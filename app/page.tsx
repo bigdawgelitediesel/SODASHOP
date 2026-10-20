@@ -174,7 +174,7 @@ export default function Home() {
       {/* ABOUT */}
       <section className="bg-pink-soft border-y-4 border-ink">
         <div className="mx-auto max-w-6xl px-4 py-20 grid gap-10 md:grid-cols-2 items-center">
-          <Image src="/img/photo-1432.webp" alt="The Jukebox Soda Shop family crew smiling at the service window" width={938} height={814} className="rounded-2xl border-3 border-ink shadow-[8px_8px_0_#16213a] w-full h-auto" />
+          <Image src="/img/family-trailer.webp" alt="The Jukebox Soda Shop family in their red, yellow, and blue shirts in front of the trailer" width={1200} height={1500} className="rounded-2xl border-3 border-ink shadow-[8px_8px_0_#16213a] w-full h-auto" />
           <div>
             <SectionTitle kicker="Family owned" title="Meet the Jukebox" center={false} />
             <p className="mt-4 text-ink/80 text-lg">

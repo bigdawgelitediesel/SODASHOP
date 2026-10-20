@@ -22,7 +22,7 @@ export default function AboutPage() {
       <PageHero eyebrow="Our story" title="About the Jukebox" blurb="Bringing the fun, flavor, and nostalgia of a classic soda fountain to life, one chart-topping sip at a time." tone="teal" />
 
       <section className="mx-auto max-w-6xl px-4 py-16 grid gap-10 md:grid-cols-2 items-center">
-        <Image src="/img/photo-1432.webp" alt="The Jukebox Soda Shop family at the trailer window" width={938} height={814} className="rounded-2xl border-3 border-ink shadow-[8px_8px_0_#16213a] w-full h-auto" />
+        <Image src="/img/family-trailer.webp" alt="The Jukebox Soda Shop family in front of the trailer" width={1200} height={1500} className="rounded-2xl border-3 border-ink shadow-[8px_8px_0_#16213a] w-full h-auto" />
         <div className="space-y-4 text-lg text-ink/85">
           <p>
             At The Jukebox Soda Shop, we are all about bringing the fun, flavor, and nostalgia of a classic soda fountain to life. Inspired by the golden age of rock &amp; roll, we created a place where great drinks and good vibes come together.
