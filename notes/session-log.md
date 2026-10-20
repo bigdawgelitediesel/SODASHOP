@@ -51,3 +51,4 @@ Open items for Jacob:
 - Re-cropped the Spice Up Your Life photo to show the front lip of the cup (`spice-up-your-life-rim.webp`).
 - Swapped in the owner-cropped Spice Up Your Life photo showing more of the cup (`spice-up-your-life-cup.webp`).
 - Spice Up Your Life photo is now a cutout of the cup top with the background removed and the bottom fading out (`spice-up-your-life-cutout.webp`), no frame.
+- Added a cutout photo (with lime) to "Oops! I Bit It Again" on the Fall Seasonal menu (`oops-i-bit-it-again-cutout.webp`).
