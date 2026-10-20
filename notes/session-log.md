@@ -28,3 +28,4 @@ Open items for Jacob:
 - Phone number changed to (605) 490-5383 (`site.phone` / `site.phoneHref`).
 - Removed the soda-base pills shown beside drink names (`DrinkRow` in `components/ui.tsx`). The `base` field stays in `lib/data.ts` but is no longer displayed.
 - Classic Hits on /menu are now grouped by soda family (Mountain Dew, Sprite, Fanta, Dr Pepper, Coke, Root Beer, Lemonade), built automatically from each drink's `base` (`classicHitGroups` in `lib/data.ts`).
+- Added Sprite Zero to the Sprite section heading (`extraVariants` in `lib/data.ts`).

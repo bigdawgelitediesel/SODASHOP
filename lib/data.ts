@@ -44,6 +44,11 @@ export type DrinkGroup = { title: string; variants: string[]; drinks: Drink[] };
 
 const sodaFamily = (base: string) => base.replace(/^Diet /, "").replace(/ Zero$/, "");
 
+// Versions offered for a soda that no drink lists as its base.
+const extraVariants: Record<string, string[]> = {
+  Sprite: ["Sprite Zero"],
+};
+
 export const classicHitGroups: DrinkGroup[] = classicHits.reduce<DrinkGroup[]>((groups, d) => {
   const base = d.base ?? "Other";
   const title = sodaFamily(base);
@@ -53,6 +58,10 @@ export const classicHitGroups: DrinkGroup[] = classicHits.reduce<DrinkGroup[]>((
   g.drinks.push(d);
   return groups;
 }, []);
+
+for (const g of classicHitGroups) {
+  for (const v of extraVariants[g.title] ?? []) if (!g.variants.includes(v)) g.variants.push(v);
+}
 
 export const highNotes: Drink[] = [
   { name: "Hit Me with Your Best Pop", mix: "White Ultra Monster + Mountain Dew + Orange + Passionfruit + Strawberry + Coconut Cream" },
