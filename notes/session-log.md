@@ -33,3 +33,4 @@ Open items for Jacob:
 - Starred "Deep in the Gulp of Texas" (sugar-free option).
 - Starred "Hydro Twist" (sugar-free option).
 - Extras add-ins on /menu now use the same rounded-chip style as Syrups.
+- Added plain "Cream" to the Creams extras.
