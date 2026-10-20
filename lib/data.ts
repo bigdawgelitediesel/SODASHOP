@@ -157,6 +157,7 @@ export const sweetTreats = [
     blurb: "Delicious bites from The Cake Pop Kitchen.",
     listLabel: "Flavors",
     list: ["Dirty Dr Pepper", "Oreo Dirt Pie", "Cookies and Cream", "Birthday Cake", "Fudge Brownie"],
+    maker: { name: "The Cake Pop Kitchen", logo: "/img/cake-pop-kitchen-logo.webp" },
   },
   {
     name: "Apple Tracks",
