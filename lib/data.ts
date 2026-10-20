@@ -134,6 +134,7 @@ export const backstage = {
     { name: "Purple Reign", mix: "Lemonade + Lavender + Vanilla" },
     { name: "Man in Blackberry", mix: "Root Beer + Orange + Blackberry + Vanilla Cream" },
     { name: "Sweet Land of Sip-erty", mix: "Sprite + Mango + Peach + Coconut Cream" },
+    { name: "Another One Bites the Apple", mix: "Sprite + Blue Raspberry + Green Apple + Fresh Lime + Vanilla Cream" },
   ] as Drink[],
   highNotes: [
     { name: "Sweet Lemonade O' Mine", mix: "Ultra White Monster + Lemonade + Raspberry Puree + Vanilla + Coconut Cream" },
@@ -146,7 +147,6 @@ export const backstage = {
   ] as Drink[],
   coolRhythms: [
     { name: "Steal My Sunshine Splash", mix: "Water + Guava + Pineapple + Coconut" },
-    { name: "Another One Bites the Apple", mix: "Sprite + Blue Raspberry + Green Apple + Fresh Lime + Vanilla Cream" },
   ] as Drink[],
 };
 
