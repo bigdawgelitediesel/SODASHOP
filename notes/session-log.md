@@ -49,3 +49,4 @@ Open items for Jacob:
 - Test: added a round top-down photo of "Spice Up Your Life" beside its Fall Seasonal description (`photo` field on `fallMenu.drinks`, image `public/img/spice-up-your-life.webp`).
 - Spice Up Your Life photo is now an oval matching the cup rim (`spice-up-your-life-top.webp`).
 - Re-cropped the Spice Up Your Life photo to show the front lip of the cup (`spice-up-your-life-rim.webp`).
+- Swapped in the owner-cropped Spice Up Your Life photo showing more of the cup (`spice-up-your-life-cup.webp`).
