@@ -40,3 +40,4 @@ Open items for Jacob:
 - Linked The Cake Pop Kitchen and Sugar & Soul Home Bakery to their Facebook pages from their "Baked by" credits on /menu (`maker.facebook`).
 - Apple Tracks blurb now says "homemade caramel".
 - Replaced the family photo on Home and About with the new crew-in-front-of-the-trailer photo (`public/img/family-trailer.webp`). Old `photo-1432.webp` is no longer used.
+- Added a teal "Hidden Hits" button to the home page hero, next to See the Menu / Tour Dates / Book an Event.

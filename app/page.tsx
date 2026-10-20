@@ -38,6 +38,7 @@ export default function Home() {
             <Link href="/menu" className="btn btn-yellow">See the Menu</Link>
             <Link href="/tour" className="btn btn-red">This Week&apos;s Tour Dates</Link>
             <Link href="/events" className="btn btn-white">Book an Event</Link>
+            <Link href="/hidden-hits" className="btn btn-teal">Hidden Hits</Link>
           </div>
         </div>
       </section>
