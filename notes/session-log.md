@@ -58,3 +58,4 @@ Open items for Jacob:
 - Syrup add-ins are now listed alphabetically.
 - Brews Just Wanna Have Fun and Twist and Sip now say Toasted Marshmallow.
 - Tiny Toons blurb now credits Sugar & Soul Home Bakery.
+- Reverted the Tiny Toons card blurb; the Sugar & Soul credit now goes in the home page Sweet Treats intro instead.

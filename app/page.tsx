@@ -98,7 +98,7 @@ export default function Home() {
           <div>
             <SectionTitle kicker="It's a little sweeter here" title="Sweet Treats" center={false} />
             <p className="mt-4 text-ink/75 text-lg">
-              Cake pops from The Cake Pop Kitchen, our loaded Apple Tracks, and Tiny Toons cookies. Good drinks, great treats, better vibes.
+              Cake pops from The Cake Pop Kitchen, our loaded Apple Tracks, and Tiny Toons cookies from Sugar &amp; Soul Home Bakery. Good drinks, great treats, better vibes.
             </p>
             <ul className="mt-6 space-y-3">
               {sweetTreats.map((t) => (

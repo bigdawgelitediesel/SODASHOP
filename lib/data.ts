@@ -175,7 +175,7 @@ export const sweetTreats = [
     name: "Tiny Toons",
     price: "$5",
     unit: "",
-    blurb: "Tiny Toons cookies from Sugar & Soul Home Bakery. Ask about our current seasonal flavor.",
+    blurb: "Big cookies. Big smiles. Ask about our current seasonal flavor.",
     listLabel: "Flavors",
     list: ["Chocolate Chip", "Seasonal Flavor"],
     maker: { name: "Sugar & Soul Home Bakery", facebook: "https://www.facebook.com/share/1C81hzTDyT/", logo: "/img/sugar-and-soul-logo.webp" },
