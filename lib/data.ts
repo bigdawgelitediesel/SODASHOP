@@ -33,7 +33,7 @@ export const classicHits: Drink[] = [
   { name: "Fizzy Like Sunday Morning", base: "Diet Coke", mix: "Coke + Cranberry + Fresh Lime" },
   { name: "Sippin' in the Rain", base: "Coke Zero", mix: "Coke + Pineapple + Peach Puree + Fresh Lime + Coconut Cream", star: true },
   { name: "Good Island Vibrations", base: "Coke", mix: "Coke + Pineapple + Coconut Cream", star: true },
-  { name: "Brews Just Wanna Have Fun", base: "Root Beer", mix: "Root Beer + Butterscotch + Marshmallow + Vanilla Cream" },
+  { name: "Brews Just Wanna Have Fun", base: "Root Beer", mix: "Root Beer + Butterscotch + Toasted Marshmallow + Vanilla Cream" },
   { name: "Sippin with My Crew", base: "Root Beer", mix: "Root Beer + Coconut + Vanilla Cream" },
   { name: "Strawberry Sips Forever", base: "Lemonade", mix: "Lemonade + Mango + Strawberry + Fresh Lime + Coconut" },
   { name: "Purple Reign", base: "Lemonade", mix: "Lemonade + Lavender + Vanilla" },
@@ -83,7 +83,7 @@ export const coolRhythms: Drink[] = [
 ];
 
 export const kidsBop: Drink[] = [
-  { name: "Twist and Sip", base: "Root Beer", mix: "Root Beer + Marshmallow + Vanilla Cream + Gummy" },
+  { name: "Twist and Sip", base: "Root Beer", mix: "Root Beer + Toasted Marshmallow + Vanilla Cream + Gummy" },
   { name: "Fruit Soda, Yummy Yummy", base: "Sprite", mix: "Sprite + Lemonade + Strawberry + Gummy" },
   { name: "Baby Shark Fizz", base: "Sprite", mix: "Sprite + Lemonade + Blue Raspberry + Gummy" },
   { name: "Hokie Pokie", base: "Fanta", mix: "Fanta Orange + Vanilla + Gummy" },

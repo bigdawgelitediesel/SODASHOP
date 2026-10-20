@@ -56,3 +56,4 @@ Open items for Jacob:
 - Added Lavender to the syrup add-ins.
 - Renamed the Marshmallow syrup to Toasted Marshmallow.
 - Syrup add-ins are now listed alphabetically.
+- Brews Just Wanna Have Fun and Twist and Sip now say Toasted Marshmallow.
