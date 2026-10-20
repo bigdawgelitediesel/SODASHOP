@@ -120,8 +120,11 @@ export const extraAddIns = {
   ],
 };
 
+// Backstage Pass drinks are listed alphabetically on the menu.
+const byName = (drinks: Drink[]) => [...drinks].sort((a, b) => a.name.localeCompare(b.name));
+
 export const backstage = {
-  classicHits: [
+  classicHits: byName([
     { name: "Doctor, Doctor Gimme the Brews", mix: "Dr Pepper + Toasted Marshmallow + Butterscotch + Vanilla Cream" },
     { name: "Sweet Cream Alabama", mix: "Coke + Cheesecake + Cherry + Vanilla Cream" },
     { name: "Cherry Dreams", mix: "Sprite + Cherry + Vanilla + Coconut Cream" },
@@ -135,8 +138,8 @@ export const backstage = {
     { name: "Man in Blackberry", mix: "Root Beer + Orange + Blackberry + Vanilla Cream" },
     { name: "Sweet Land of Sip-erty", mix: "Sprite + Mango + Peach + Coconut Cream" },
     { name: "Another One Bites the Apple", mix: "Sprite + Blue Raspberry + Green Apple + Fresh Lime + Vanilla Cream" },
-  ] as Drink[],
-  highNotes: [
+  ]),
+  highNotes: byName([
     { name: "Sweet Lemonade O' Mine", mix: "Ultra White Monster + Lemonade + Raspberry Puree + Vanilla + Coconut Cream" },
     { name: "Livin' La Vida Mango", mix: "Ultra White Monster + Sprite + Watermelon + Mango + Coconut" },
     { name: "Pocket Full of Citrus", mix: "Ultra White Monster + Mountain Dew + Pineapple + Orange" },
@@ -144,10 +147,10 @@ export const backstage = {
     { name: "Can You Feel the Force Tonight", mix: "Ultra White Monster + Mountain Dew + Guava + Strawberry + Coconut Popping Pearls" },
     { name: "Red, White, and Bubbly", mix: "Ultra White Monster + Sprite + Blue Raspberry + Coconut + Strawberry" },
     { name: "Electric Paradise", mix: "Ultra White Monster + Fanta Orange + Pineapple + Raspberry + Coconut Cream" },
-  ] as Drink[],
-  coolRhythms: [
+  ]),
+  coolRhythms: byName([
     { name: "Steal My Sunshine Splash", mix: "Water + Guava + Pineapple + Coconut" },
-  ] as Drink[],
+  ]),
 };
 
 export const sweetTreats = [
