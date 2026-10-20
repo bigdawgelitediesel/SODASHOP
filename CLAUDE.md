@@ -18,7 +18,7 @@ This repo is the website for The Jukebox Soda Shop, a family-owned mobile dirty-
 
 **Update weekly tour dates:** edit `tourWeek` in `lib/data.ts` (range + the 7 stops). Keep `off: true` for days off. Then build, commit, push, deploy.
 
-**Add or change a drink:** add to the right array in `lib/data.ts` (`classicHits`, `highNotes`, `coolRhythms`, `kidsBop`, or `backstage.*`). Fields: `name`, `mix`, optional `base` (shown as a pill) and `star` (shows a "shop favorite" star).
+**Add or change a drink:** add to the right array in `lib/data.ts` (`classicHits`, `highNotes`, `coolRhythms`, `kidsBop`, or `backstage.*`). Fields: `name`, `mix`, optional `base` (not shown on the site; the mix line already names the soda) and `star` (shows a "shop favorite" star).
 
 **Change prices:** `pricing`, `kidsPrice`, `caffeineShot`, `syrupAddIns.price`, `extraAddIns.price`, `eventTiers`, `eventAddOns`, `eventTerms`.
 

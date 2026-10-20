@@ -48,7 +48,6 @@ export function DrinkRow({ d, accent }: { d: Drink; accent: string }) {
           {d.name}
           {d.star && <Star />}
         </p>
-        {d.base && <span className="pill bg-cream-2 text-ink/70 shrink-0 mt-0.5">{d.base}</span>}
       </div>
       <p className="text-ink/75 mt-1 text-[15px]">{d.mix}</p>
     </li>

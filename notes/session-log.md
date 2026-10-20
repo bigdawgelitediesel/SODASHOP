@@ -26,3 +26,4 @@ Open items for Jacob:
 - Pointed store "Buy Now" links (`site.originalStore`) at the Squarespace built-in domain `pepper-rabbit-3jjr.squarespace.com` so checkout keeps working after jukeboxsoda.com moves to Vercel.
 - Plan for the switch: add jukeboxsoda.com + www in Vercel, then in GoDaddy DNS replace the Squarespace A/CNAME records with A @ 76.76.21.21 and CNAME www cname.vercel-dns.com. Leave MX/TXT (email) alone. Then remove the custom domain from Squarespace so the built-in domain stops redirecting.
 - Phone number changed to (605) 490-5383 (`site.phone` / `site.phoneHref`).
+- Removed the soda-base pills shown beside drink names (`DrinkRow` in `components/ui.tsx`). The `base` field stays in `lib/data.ts` but is no longer displayed.
