@@ -226,7 +226,7 @@ export default function MenuPage() {
           <div className="mt-8 bg-ink rounded-2xl border-3 border-yellow p-6">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <h3 className="font-script text-3xl text-yellow">{fallMenu.warmUps.title}</h3>
-              <span className="pill bg-yellow text-ink">{fallMenu.warmUps.size}</span>
+              <span className="pill bg-yellow text-ink">{fallMenu.warmUps.size} · {fallMenu.warmUps.price}</span>
             </div>
             <ul className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {fallMenu.warmUps.items.map((w) => (

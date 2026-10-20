@@ -186,7 +186,7 @@ export const fallMenu: {
   season: string;
   dates: string;
   drinks: { tag: string; name: string; mix: string; photo?: string }[];
-  warmUps: { title: string; size: string; items: { name: string; mix: string }[] };
+  warmUps: { title: string; size: string; price: string; items: { name: string; mix: string }[] };
   treats: { name: string; note: string }[];
 } = {
   season: "Fall Seasonal Menu",
@@ -199,6 +199,7 @@ export const fallMenu: {
   warmUps: {
     title: "Warm Ups / Hot Chocolates",
     size: "16 oz",
+    price: "$4.50",
     items: [
       { name: "Pumpkin Spice Baby", mix: "Pumpkin spice, white chocolate, and caramel" },
       { name: "Hazelnuts Roasting on an Open Fire", mix: "Hazelnut, white chocolate, and caramel" },

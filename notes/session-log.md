@@ -59,3 +59,4 @@ Open items for Jacob:
 - Brews Just Wanna Have Fun and Twist and Sip now say Toasted Marshmallow.
 - Tiny Toons blurb now credits Sugar & Soul Home Bakery.
 - Reverted the Tiny Toons card blurb; the Sugar & Soul credit now goes in the home page Sweet Treats intro instead.
+- Warm Ups priced at $4.50 (16 oz), shown in the Warm Ups pill.
