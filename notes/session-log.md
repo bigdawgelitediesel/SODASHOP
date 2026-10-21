@@ -61,3 +61,4 @@ Open items for Jacob:
 - Reverted the Tiny Toons card blurb; the Sugar & Soul credit now goes in the home page Sweet Treats intro instead.
 - Warm Ups priced at $4.50 (16 oz), shown in the Warm Ups pill.
 - Tour Oct 22: Founders Park now 9 AM to 4 PM, plus a second Thursday stop at the Stevens vs. Central football game (SD School of Mines, kickoff to end of game). Tour list keys now use day + title so a day can have more than one stop.
+- Football game stop now shows 6:00 PM kickoff.
