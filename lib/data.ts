@@ -253,7 +253,7 @@ export const tourWeek = {
     { day: "Tuesday", date: "Oct 20", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Rapid City", time: "7:00 AM to 2:00 PM" },
     { day: "Wednesday", date: "Oct 21", title: "Founders Park", address: "1510 W Omaha St, Rapid City", time: "9:00 AM to 5:30 PM" },
     { day: "Thursday", date: "Oct 22", title: "Founders Park", address: "1510 W Omaha St, Rapid City", time: "9:00 AM to 4:00 PM" },
-    { day: "Thursday", date: "Oct 22", title: "Stevens vs. Central High School Football Game", address: "South Dakota School of Mines, 561 E Saint Joseph St, Rapid City", time: "6:00 PM kickoff to end of game" },
+    { day: "Thursday", date: "Oct 22", title: "Stevens vs. Central High School Football Game", address: "O'Harra Stadium, South Dakota School of Mines, 561 E Saint Joseph St, Rapid City", time: "6:00 PM kickoff to end of game" },
     { day: "Friday", date: "Oct 23", title: "Founders Park", address: "1510 W Omaha St, Rapid City", time: "9:00 AM to 5:30 PM" },
     { day: "Saturday", date: "Oct 24", title: "Old MacDonald's Farm", address: "23691 Busted Five Ct, Rapid City", time: "10:00 AM to 5:00 PM" },
     { day: "Sunday", date: "Oct 25", title: "Resting between sets", off: true, note: "Hidden Hits with House of Thread. Drops at 5:00, 6:00, and 7:00 PM." },
@@ -291,7 +291,7 @@ export const announcement: Announcement | null = {
   title: "Thursday, Oct 22 has a new setlist",
   lines: [
     { label: "Founders Park", text: "9:00 AM to 4:00 PM (closing early)" },
-    { label: "Stevens vs. Central football game", text: "South Dakota School of Mines, 561 E Saint Joseph St. 6:00 PM kickoff to end of game" },
+    { label: "Stevens vs. Central football game", text: "O'Harra Stadium, South Dakota School of Mines, 561 E Saint Joseph St, Rapid City. 6:00 PM kickoff to end of game" },
   ],
   link: { href: "/tour", label: "See this week's tour" },
   expires: "2026-10-23T06:00:00Z", // end of Thursday, Oct 22 in Rapid City
