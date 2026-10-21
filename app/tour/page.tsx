@@ -21,7 +21,7 @@ export default function TourPage() {
       <section className="mx-auto max-w-4xl px-4 py-16">
         <ol className="space-y-4">
           {tourWeek.stops.map((s) => (
-            <li key={s.day} className={`card p-5 md:p-6 grid gap-3 md:grid-cols-[140px_1fr_auto] md:items-center ${s.off ? "bg-cream-2" : ""}`}>
+            <li key={`${s.day}-${s.title}`} className={`card p-5 md:p-6 grid gap-3 md:grid-cols-[140px_1fr_auto] md:items-center ${s.off ? "bg-cream-2" : ""}`}>
               <div>
                 <p className="font-display text-2xl leading-none">{s.day}</p>
                 <p className="text-ink/60 mt-1">{s.date}</p>
