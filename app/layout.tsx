@@ -3,6 +3,7 @@ import { Lilita_One, Pacifico, Nunito } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import Announcement from "@/components/Announcement";
 
 const display = Lilita_One({ weight: "400", subsets: ["latin"], variable: "--font-display" });
 const script = Pacifico({ weight: "400", subsets: ["latin"], variable: "--font-script" });
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Announcement />
       </body>
     </html>
   );

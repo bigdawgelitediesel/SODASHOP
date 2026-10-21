@@ -273,3 +273,27 @@ export const hiddenHitsDrops = [
   { hit: "Hit #2", time: "6:00 PM" },
   { hit: "Hit #3", time: "7:00 PM" },
 ];
+
+// Pop-up shown once per visitor when the site opens, until `expires` passes.
+// Set to null when there is nothing to announce. Change `id` for a new announcement
+// so visitors who closed the last one still see it.
+export type Announcement = {
+  id: string;
+  kicker: string;
+  title: string;
+  lines: { label: string; text: string }[];
+  link: { href: string; label: string };
+  expires: string; // ISO time; Rapid City is UTC-6 in October (MDT)
+};
+
+export const announcement: Announcement | null = {
+  id: "thursday-oct-22",
+  kicker: "Schedule change",
+  title: "Thursday, Oct 22 has a new setlist",
+  lines: [
+    { label: "Founders Park", text: "9:00 AM to 4:00 PM (closing early)" },
+    { label: "Stevens vs. Central football game", text: "South Dakota School of Mines, 561 E Saint Joseph St. 6:00 PM kickoff to end of game" },
+  ],
+  link: { href: "/tour", label: "See this week's tour" },
+  expires: "2026-10-23T06:00:00Z", // end of Thursday, Oct 22 in Rapid City
+};
