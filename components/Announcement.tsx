@@ -6,14 +6,11 @@ import { announcement } from "@/lib/data";
 
 export default function Announcement() {
   const [open, setOpen] = useState(false);
-  const key = announcement ? `announcement-closed:${announcement.id}` : "";
 
+  // Shows on every visit and reload until it expires; closing only hides it for this page view.
   useEffect(() => {
-    if (!announcement || Date.now() >= Date.parse(announcement.expires)) return;
-    let closed = false;
-    try { closed = localStorage.getItem(key) === "1"; } catch {}
-    if (!closed) setOpen(true);
-  }, [key]);
+    if (announcement && Date.now() < Date.parse(announcement.expires)) setOpen(true);
+  }, []);
 
   useEffect(() => {
     if (!open) return;
@@ -24,7 +21,6 @@ export default function Announcement() {
 
   function close() {
     setOpen(false);
-    try { localStorage.setItem(key, "1"); } catch {}
   }
 
   if (!open || !announcement) return null;

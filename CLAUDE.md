@@ -20,7 +20,7 @@ This repo is the website for The Jukebox Soda Shop, a family-owned mobile dirty-
 
 **Add or change a drink:** add to the right array in `lib/data.ts` (`classicHits`, `highNotes`, `coolRhythms`, `kidsBop`, or `backstage.*`). Fields: `name`, `mix`, `base` (the soda; Classic Hits are grouped on the menu by soda family, with "Diet X" and "X Zero" under X) and `star` (marks a drink that can be made sugar free except for purées; explained by `sugarFreeNote`).
 
-**Pop-up announcement:** edit `announcement` in `lib/data.ts` (title, lines, link, `expires` as an ISO time; Rapid City is UTC-6 in summer/fall, UTC-7 in winter). Give each new announcement a new `id`. Set it to `null` to turn the pop-up off. Shown once per visitor by `components/Announcement.tsx`.
+**Pop-up announcement:** edit `announcement` in `lib/data.ts` (title, lines, link, `expires` as an ISO time; Rapid City is UTC-6 in summer/fall, UTC-7 in winter). Set it to `null` to turn the pop-up off. `components/Announcement.tsx` shows it on every visit and reload until it expires.
 
 **Change prices:** `pricing`, `kidsPrice`, `caffeineShot`, `syrupAddIns.price`, `extraAddIns.price`, `eventTiers`, `eventAddOns`, `eventTerms`.
 

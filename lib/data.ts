@@ -274,9 +274,8 @@ export const hiddenHitsDrops = [
   { hit: "Hit #3", time: "7:00 PM" },
 ];
 
-// Pop-up shown once per visitor when the site opens, until `expires` passes.
-// Set to null when there is nothing to announce. Change `id` for a new announcement
-// so visitors who closed the last one still see it.
+// Pop-up shown every time the site is opened or reloaded, until `expires` passes.
+// Set to null when there is nothing to announce.
 export type Announcement = {
   id: string;
   kicker: string;
