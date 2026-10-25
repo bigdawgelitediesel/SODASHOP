@@ -245,6 +245,7 @@ export type TourStop = {
   off?: boolean;
   note?: string;
   badge?: string; // label for a day with no stop; defaults to "Day off"
+  holiday?: { label: string; note: string }; // dresses the stop up for a holiday
 };
 
 export const tourWeek = {
@@ -255,7 +256,7 @@ export const tourWeek = {
     { day: "Wednesday", date: "Oct 28", title: "Closed for a private event", off: true, badge: "Private event" },
     { day: "Thursday", date: "Oct 29", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 5:30 PM" },
     { day: "Friday", date: "Oct 30", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 5:30 PM" },
-    { day: "Saturday", date: "Oct 31", title: "Fleet Farm", address: "1001 E Mall Dr, Rapid City, SD 57701", time: "9:00 AM to 6:00 PM" },
+    { day: "Saturday", date: "Oct 31", title: "Fleet Farm", address: "1001 E Mall Dr, Rapid City, SD 57701", time: "9:00 AM to 6:00 PM", holiday: { label: "🎃 Halloween", note: "It's a Monster Mash at the window! Come in costume and sip something spooky." } },
     { day: "Sunday", date: "Nov 1", title: "Resting between sets", off: true, note: "Hidden Hits drops at 5:00, 6:00, and 7:00 PM." },
   ] as TourStop[],
 };

@@ -21,16 +21,21 @@ export default function TourPage() {
       <section className="mx-auto max-w-4xl px-4 py-16">
         <ol className="space-y-4">
           {tourWeek.stops.map((s) => (
-            <li key={`${s.day}-${s.title}`} className={`card p-5 md:p-6 grid gap-3 md:grid-cols-[140px_1fr_auto] md:items-center ${s.off ? "bg-cream-2" : ""}`}>
+            <li key={`${s.day}-${s.title}`} className={`card relative overflow-hidden p-5 md:p-6 grid gap-3 md:grid-cols-[140px_1fr_auto] md:items-center ${s.off ? "bg-cream-2" : ""} ${s.holiday ? "!bg-[#ffd8a8]" : ""}`}>
+              {s.holiday && (
+                <span aria-hidden className="pointer-events-none absolute -top-1 right-3 text-3xl opacity-80 select-none">🦇 👻</span>
+              )}
               <div>
                 <p className="font-display text-2xl leading-none">{s.day}</p>
                 <p className="text-ink/60 mt-1">{s.date}</p>
               </div>
               <div>
+                {s.holiday && <span className="pill bg-ink text-[#ff9f43] mb-2">{s.holiday.label}</span>}
                 <p className={`font-display text-xl ${s.off ? "text-ink/70" : "text-red"}`}>{s.title}</p>
                 {s.address && <p className="text-ink/75">{s.address}</p>}
                 {s.time && <p className="font-display mt-1">{s.time}</p>}
                 {s.note && <p className="text-ink/75 mt-1">{s.note}</p>}
+                {s.holiday && <p className="font-script text-lg text-ink mt-2">{s.holiday.note}</p>}
               </div>
               <div className="md:text-right">
                 {s.address ? (

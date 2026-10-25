@@ -53,7 +53,7 @@ export default function Home() {
           <div className="flex-1 flex flex-wrap gap-2">
             {openStops.map((s) => (
               <Link key={`${s.day}-${s.title}`} href="/tour" className="bg-white border-2 border-ink rounded-xl px-3 py-2 text-sm hover:bg-cream transition">
-                <span className="font-display">{s.day.slice(0, 3)}</span> &middot; {s.title}
+                <span className="font-display">{s.day.slice(0, 3)}</span> &middot; {s.title}{s.holiday && <span aria-hidden> 🎃</span>}
                 <span className="block text-ink/60 text-xs">{s.time}</span>
               </Link>
             ))}
