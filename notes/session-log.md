@@ -66,3 +66,4 @@ Open items for Jacob:
 - Pop-up now shows on every visit and reload (no longer remembered as closed); still stops at the end of Thursday.
 - Football game stop and pop-up now name O'Harra Stadium.
 - Tour updated to Oct 26 to Nov 1 (Oyate Tue, private event Wed, Founders Thu/Fri, Fleet Farm Sat, Hidden Hits Sun).
+- Removed the outdated "View this week's tour poster" link from /tour.

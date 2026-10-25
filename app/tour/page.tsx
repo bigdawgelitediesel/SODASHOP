@@ -50,7 +50,6 @@ export default function TourPage() {
           <h2 className="font-display text-2xl md:text-3xl mt-1">New tour dates drop every week on social</h2>
           <p className="text-ink/75 mt-3 max-w-xl mx-auto">Weather, festivals, and private events move us around. Follow along so you never miss a stop.</p>
           <div className="mt-5 flex justify-center"><Socials /></div>
-          <a href="/menus/tour-dates.png" target="_blank" rel="noopener" className="inline-block mt-6 text-sm font-display underline underline-offset-4">View this week&apos;s tour poster</a>
         </div>
       </section>
     </>
