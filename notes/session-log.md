@@ -65,3 +65,4 @@ Open items for Jacob:
 - Added a site-wide pop-up (`announcement` in `lib/data.ts`, `components/Announcement.tsx`) announcing the Thursday Oct 22 changes. Shows once per visitor and stops after 11:59 PM Thursday Mountain time.
 - Pop-up now shows on every visit and reload (no longer remembered as closed); still stops at the end of Thursday.
 - Football game stop and pop-up now name O'Harra Stadium.
+- Tour updated to Oct 26 to Nov 1 (Oyate Tue, private event Wed, Founders Thu/Fri, Fleet Farm Sat, Hidden Hits Sun).

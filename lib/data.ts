@@ -244,19 +244,19 @@ export type TourStop = {
   time?: string;
   off?: boolean;
   note?: string;
+  badge?: string; // label for a day with no stop; defaults to "Day off"
 };
 
 export const tourWeek = {
-  range: "October 19 to October 25, 2026",
+  range: "October 26 to November 1, 2026",
   stops: [
-    { day: "Monday", date: "Oct 19", title: "Rehearsing for the upcoming tour dates", off: true },
-    { day: "Tuesday", date: "Oct 20", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Rapid City", time: "7:00 AM to 2:00 PM" },
-    { day: "Wednesday", date: "Oct 21", title: "Founders Park", address: "1510 W Omaha St, Rapid City", time: "9:00 AM to 5:30 PM" },
-    { day: "Thursday", date: "Oct 22", title: "Founders Park", address: "1510 W Omaha St, Rapid City", time: "9:00 AM to 4:00 PM" },
-    { day: "Thursday", date: "Oct 22", title: "Stevens vs. Central High School Football Game", address: "O'Harra Stadium, South Dakota School of Mines, 561 E Saint Joseph St, Rapid City", time: "6:00 PM kickoff to end of game" },
-    { day: "Friday", date: "Oct 23", title: "Founders Park", address: "1510 W Omaha St, Rapid City", time: "9:00 AM to 5:30 PM" },
-    { day: "Saturday", date: "Oct 24", title: "Old MacDonald's Farm", address: "23691 Busted Five Ct, Rapid City", time: "10:00 AM to 5:00 PM" },
-    { day: "Sunday", date: "Oct 25", title: "Resting between sets", off: true, note: "Hidden Hits with House of Thread. Drops at 5:00, 6:00, and 7:00 PM." },
+    { day: "Monday", date: "Oct 26", title: "Jukebox rehearsing for the upcoming tour", off: true },
+    { day: "Tuesday", date: "Oct 27", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Unit 1, Rapid City, SD 57702", time: "7:00 AM to 2:00 PM" },
+    { day: "Wednesday", date: "Oct 28", title: "Closed for a private event", off: true, badge: "Private event" },
+    { day: "Thursday", date: "Oct 29", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 5:30 PM" },
+    { day: "Friday", date: "Oct 30", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 5:30 PM" },
+    { day: "Saturday", date: "Oct 31", title: "Fleet Farm", address: "1001 E Mall Dr, Rapid City, SD 57701", time: "9:00 AM to 6:00 PM" },
+    { day: "Sunday", date: "Nov 1", title: "Resting between sets", off: true, note: "Hidden Hits drops at 5:00, 6:00, and 7:00 PM." },
   ] as TourStop[],
 };
 

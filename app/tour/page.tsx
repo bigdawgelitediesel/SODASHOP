@@ -38,7 +38,7 @@ export default function TourPage() {
                 ) : s.note ? (
                   <Link href="/hidden-hits" className="btn btn-yellow !py-2 !px-4 !text-sm">Hidden Hits</Link>
                 ) : (
-                  <span className="pill bg-ink text-cream">Day off</span>
+                  <span className="pill bg-ink text-cream">{s.badge ?? "Day off"}</span>
                 )}
               </div>
             </li>
