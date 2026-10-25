@@ -7,6 +7,7 @@ import {
 } from "@/lib/data";
 import { PageHero, SectionTitle, MenuCard, DrinkRow, Star } from "@/components/ui";
 import { FacebookIcon } from "@/components/Socials";
+import MenuJump from "@/components/MenuJump";
 
 export const metadata: Metadata = {
   title: "Menu",
@@ -30,13 +31,7 @@ export default function MenuPage() {
     <>
       <PageHero eyebrow="Now playing" title="The Menu" blurb="Every drink is named after a classic hit. Tell us the song, we'll mix the sip." tone="teal" />
 
-      <div className="sticky top-20 z-40 bg-cream border-b-2 border-ink/10">
-        <div className="mx-auto max-w-6xl px-4 py-2 flex gap-2 overflow-x-auto no-scrollbar">
-          {jump.map((j) => (
-            <a key={j.href} href={j.href} className="shrink-0 font-display text-sm px-3 py-1.5 rounded-full bg-white border-2 border-ink hover:bg-yellow transition">{j.label}</a>
-          ))}
-        </div>
-      </div>
+      <MenuJump links={jump} />
 
       {/* MAIN DRINKS */}
       <section className="mx-auto max-w-6xl px-4 py-16">

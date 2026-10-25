@@ -64,7 +64,7 @@ export default function AboutPage() {
             <Socials />
           </div>
         </div>
-        <Image src="/img/trailer-night.webp" alt="The Jukebox Soda Shop trailer glowing at night" width={1366} height={768} className="rounded-2xl border-3 border-ink shadow-[8px_8px_0_#16213a] w-full h-auto" />
+        <Image src="/img/trailer-day.webp" alt="The Jukebox Soda Shop trailer with its service window open" width={1800} height={966} className="rounded-2xl border-3 border-ink shadow-[8px_8px_0_#16213a] w-full h-auto" />
       </section>
     </>
   );

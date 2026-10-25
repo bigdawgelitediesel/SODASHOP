@@ -69,3 +69,5 @@ Open items for Jacob:
 - Removed the outdated "View this week's tour poster" link from /tour.
 - Halloween look for the Sat Oct 31 Fleet Farm stop: orange card, "🎃 Halloween" tag, bat/ghost accents, and a "Monster Mash" note (`holiday` field on tour stops); 🎃 on the home tour strip.
 - Added the Oct 26 to Nov 1 tour poster to /tour, shown below the schedule and tappable for full size (`tourWeek.poster`, `public/menus/tour-2026-10-26.webp`). Old poster removed.
+- /menu section bar now highlights the section in view and slides that button into view on phones (`components/MenuJump.tsx`).
+- Replaced the night trailer photo (showed the old (801) number) with the cropped daytime photo on About, and a new 1200x630 link-preview image `public/img/og-trailer.jpg`. Removed `trailer-night.webp`.

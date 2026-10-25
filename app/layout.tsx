@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Jukebox Soda Shop",
     description: "It's not just a soda. It's your soundtrack. Rapid City, SD.",
-    images: ["/img/trailer-night.webp"],
+    images: ["/img/og-trailer.jpg"],
   },
 };
 
