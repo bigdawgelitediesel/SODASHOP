@@ -71,3 +71,4 @@ Open items for Jacob:
 - Added the Oct 26 to Nov 1 tour poster to /tour, shown below the schedule and tappable for full size (`tourWeek.poster`, `public/menus/tour-2026-10-26.webp`). Old poster removed.
 - /menu section bar now highlights the section in view and slides that button into view on phones (`components/MenuJump.tsx`).
 - Replaced the night trailer photo (showed the old (801) number) with the cropped daytime photo on About, and a new 1200x630 link-preview image `public/img/og-trailer.jpg`. Removed `trailer-night.webp`.
+- Store intro now says "Prices subject to tax" (was "Taxes included"), matching the rest of the site.

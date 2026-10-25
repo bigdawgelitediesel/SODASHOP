@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function StorePage() {
   return (
     <>
-      <PageHero eyebrow="Wear the soundtrack" title="Jukebox Merch" blurb="Retro pieces for music lovers and soda fans. Taxes included in every price." tone="yellow" />
+      <PageHero eyebrow="Wear the soundtrack" title="Jukebox Merch" blurb="Retro pieces for music lovers and soda fans. Prices subject to tax." tone="yellow" />
 
       <section className="mx-auto max-w-6xl px-4 py-16">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
