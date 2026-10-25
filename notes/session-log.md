@@ -68,3 +68,4 @@ Open items for Jacob:
 - Tour updated to Oct 26 to Nov 1 (Oyate Tue, private event Wed, Founders Thu/Fri, Fleet Farm Sat, Hidden Hits Sun).
 - Removed the outdated "View this week's tour poster" link from /tour.
 - Halloween look for the Sat Oct 31 Fleet Farm stop: orange card, "🎃 Halloween" tag, bat/ghost accents, and a "Monster Mash" note (`holiday` field on tour stops); 🎃 on the home tour strip.
+- Added the Oct 26 to Nov 1 tour poster to /tour, shown below the schedule and tappable for full size (`tourWeek.poster`, `public/menus/tour-2026-10-26.webp`). Old poster removed.

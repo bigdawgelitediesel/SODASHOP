@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { tourWeek } from "@/lib/data";
@@ -49,6 +50,14 @@ export default function TourPage() {
             </li>
           ))}
         </ol>
+
+        {tourWeek.poster && (
+          <a href={tourWeek.poster} target="_blank" rel="noopener" className="block mt-12 max-w-xl mx-auto">
+            <Image src={tourWeek.poster} alt={`Jukebox tour dates poster, ${tourWeek.range}`} width={1254} height={1254}
+                   className="w-full h-auto rounded-2xl border-3 border-ink shadow-[8px_8px_0_#16213a]" />
+            <span className="block text-center mt-4 text-sm font-display underline underline-offset-4">View this week&apos;s tour poster full size</span>
+          </a>
+        )}
 
         <div className="mt-12 card p-6 md:p-8 text-center bg-teal-soft">
           <p className="font-script text-2xl text-red">Schedule changes fast</p>
