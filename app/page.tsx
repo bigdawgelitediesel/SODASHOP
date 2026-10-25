@@ -100,20 +100,16 @@ export default function Home() {
             <p className="mt-4 text-ink/75 text-lg">
               Cake pops from The Cake Pop Kitchen, our loaded Apple Tracks, and Tiny Toons cookies from Sugar &amp; Soul Home Bakery. Good drinks, great treats, better vibes.
             </p>
-            <ul className="mt-6 space-y-3">
-              {sweetTreats.map((t) => (
-                <li key={t.name} className="flex items-baseline justify-between gap-4 bg-white border-2 border-ink rounded-xl px-4 py-3">
-                  <span className="font-display text-xl">{t.name}</span>
-                  <span className="font-display text-red text-xl">{t.price}{t.unit ? ` ${t.unit}` : ""}</span>
-                </li>
-              ))}
-            </ul>
             <Link href="/menu#sweet-treats" className="btn btn-teal mt-7">See Treats &amp; Toppings</Link>
           </div>
-          <div className="relative">
-            <div className="vinyl absolute -top-8 -right-4 h-28 w-28 spin-slow hidden md:block" />
-            <Image src="/img/photo-2922.webp" alt="Happy customers holding a found Hidden Hit record in front of the Jukebox trailer" width={1040} height={1280} className="rounded-2xl border-3 border-ink shadow-[8px_8px_0_#16213a] w-full h-auto" />
-          </div>
+          <ul className="space-y-3">
+            {sweetTreats.map((t) => (
+              <li key={t.name} className="flex items-baseline justify-between gap-4 bg-white border-2 border-ink rounded-xl px-4 py-3">
+                <span className="font-display text-xl">{t.name}</span>
+                <span className="font-display text-red text-xl">{t.price}{t.unit ? ` ${t.unit}` : ""}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
@@ -140,8 +136,11 @@ export default function Home() {
 
       {/* HIDDEN HITS */}
       <section className="bg-ink text-cream border-y-4 border-ink">
-        <div className="mx-auto max-w-6xl px-4 py-20 grid gap-10 md:grid-cols-[auto_1fr] items-center">
-          <div className="vinyl h-40 w-40 md:h-56 md:w-56 mx-auto spin-slow" />
+        <div className="mx-auto max-w-6xl px-4 py-20 grid gap-10 md:grid-cols-2 items-center">
+          <div className="relative max-w-md mx-auto w-full">
+            <div className="vinyl absolute -top-8 -right-4 h-28 w-28 spin-slow hidden md:block" />
+            <Image src="/img/photo-2922.webp" alt="Happy customers holding a found Hidden Hit record in front of the Jukebox trailer" width={1040} height={1280} className="rounded-2xl border-3 border-cream shadow-[8px_8px_0_#f8c740] w-full h-auto" />
+          </div>
           <div>
             <p className="font-script text-2xl text-yellow">Every Sunday</p>
             <h2 className="font-display text-3xl md:text-5xl mt-1">Hidden Hits Treasure Hunt</h2>
