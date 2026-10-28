@@ -31,9 +31,13 @@ export default function Home() {
             <span className="block font-logo-sans text-2xl md:text-4xl tracking-[0.15em] text-cream">THE</span>
             <span className="relative inline-block font-logo text-7xl md:text-[7rem] lg:text-[9.25rem] -mt-2 md:-mt-4 lg:-mt-5">
               <span className="text-cream tracking-wide [-webkit-text-stroke:2px_#e23b3f] [paint-order:stroke_fill] drop-shadow-[4px_4px_0_#e23b3f]">JUKEBOX</span>
-              {/* Jukey the mascot, standing on the X */}
-              <Image src="/img/jukey.webp" alt="Jukey, the Jukebox Soda Shop mascot" width={408} height={560} priority
-                     className="jukey-dance absolute right-[-0.04em] bottom-[0.78em] h-[1.15em] md:h-[0.85em] w-auto [filter:drop-shadow(0_0_1.5px_#fff7e6)_drop-shadow(0_0_1.5px_#fff7e6)_drop-shadow(3px_3px_0_rgba(0,0,0,0.35))]" />
+              {/* Jukey the mascot, standing on the X: body hops, one hand waves, the other wiggles a peace sign */}
+              <span role="img" aria-label="Jukey, the Jukebox Soda Shop mascot, waving"
+                    className="jukey-hop absolute right-[-0.04em] bottom-[0.78em] h-[1.15em] md:h-[0.85em] aspect-[408/560] [filter:drop-shadow(0_0_1.5px_#fff7e6)_drop-shadow(0_0_1.5px_#fff7e6)_drop-shadow(3px_3px_0_rgba(0,0,0,0.35))]">
+                <Image src="/img/jukey-arm-left.webp" alt="" fill sizes="160px" priority className="jukey-peace" />
+                <Image src="/img/jukey-arm-right.webp" alt="" fill sizes="160px" priority className="jukey-wave" />
+                <Image src="/img/jukey-body.webp" alt="" fill sizes="160px" priority />
+              </span>
             </span>
             <span className="block font-logo-sans text-3xl md:text-5xl lg:text-6xl tracking-[0.08em] text-cream mt-2">SODA SHOP</span>
           </h1>

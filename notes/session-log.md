@@ -79,3 +79,4 @@ Open items for Jacob:
 - Home hero: JUKEBOX a little bigger.
 - Home hero: tightened the gap between THE and JUKEBOX.
 - Added Jukey the mascot (`public/img/jukey.webp`, background removed) standing on the X of JUKEBOX in the home hero, with a gentle dance animation (`.jukey-dance`, off for reduced-motion users).
+- Jukey is now three layers (`jukey-body`, `jukey-arm-right`, `jukey-arm-left`.webp): body hops with a little squash, right hand waves, left peace-sign hand wiggles (`.jukey-hop/.jukey-wave/.jukey-peace` in globals.css). Replaces the stiff whole-body sway.
