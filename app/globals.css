@@ -113,14 +113,8 @@ body {
 @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
 .float { animation: float 5s ease-in-out infinite; }
 
-/* Jukey the mascot on the business name: a little hop, a wave, and a peace-sign wiggle.
+/* Jukey the mascot on the business name: a wave and a peace-sign wiggle.
    The arm layers pivot at the shoulders (percentages of the image). */
-@keyframes jukey-hop {
-  0%, 100% { transform: translateY(0) scale(1, 1); }
-  30% { transform: translateY(-7%) scale(0.98, 1.03); }
-  55% { transform: translateY(0) scale(1.04, 0.95); }
-  70% { transform: translateY(0) scale(1, 1); }
-}
 @keyframes jukey-wave {
   0%, 100% { transform: rotate(0deg); }
   20%, 60% { transform: rotate(-28deg); }
@@ -130,10 +124,9 @@ body {
   0%, 100% { transform: rotate(0deg); }
   50% { transform: rotate(9deg); }
 }
-.jukey-hop { transform-origin: 50% 100%; animation: jukey-hop 1.1s ease-in-out infinite; }
 .jukey-wave { transform-origin: 69.6% 49.6%; animation: jukey-wave 1.8s ease-in-out infinite; }
 .jukey-peace { transform-origin: 26.6% 54.7%; animation: jukey-peace 1.1s ease-in-out infinite; }
-@media (prefers-reduced-motion: reduce) { .jukey-hop, .jukey-wave, .jukey-peace, .spin-slow, .float { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .jukey-wave, .jukey-peace, .spin-slow, .float { animation: none; } }
 }
 
 .no-scrollbar { scrollbar-width: none; }

@@ -81,3 +81,4 @@ Open items for Jacob:
 - Added Jukey the mascot (`public/img/jukey.webp`, background removed) standing on the X of JUKEBOX in the home hero, with a gentle dance animation (`.jukey-dance`, off for reduced-motion users).
 - Jukey is now three layers (`jukey-body`, `jukey-arm-right`, `jukey-arm-left`.webp): body hops with a little squash, right hand waves, left peace-sign hand wiggles (`.jukey-hop/.jukey-wave/.jukey-peace` in globals.css). Replaces the stiff whole-body sway.
 - Trial: moved the sugar-free star note to the top of the main drinks on /menu (was below them).
+- Jukey no longer hops; only the wave and peace-sign wiggle remain.
