@@ -74,3 +74,4 @@ Open items for Jacob:
 - Store intro now says "Prices subject to tax" (was "Taxes included"), matching the rest of the site.
 - Home: moved the Hidden Hits winners photo (`photo-2922.webp`) from Sweet Treats into the Hidden Hits section; Sweet Treats now shows the intro beside the price list.
 - Warm Ups now list two sizes: 16 oz $4.50 and 24 oz $6.50 (`fallMenu.warmUps.sizes`).
+- Home hero now leads with the logo and "The Jukebox Soda Shop" as the big headline; tagline and Rapid City moved underneath. Header shows the business name on phones too.

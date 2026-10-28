@@ -26,11 +26,18 @@ export default function Home() {
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/30" />
-        <div className="relative mx-auto max-w-6xl px-4 py-24 md:py-36 text-center">
-          <p className="font-script text-3xl md:text-4xl text-yellow">Rapid City, South Dakota</p>
-          <h1 className="font-display text-5xl md:text-7xl lg:text-8xl mt-3 leading-[0.95] drop-shadow-[4px_4px_0_#e23b3f]">
-            It&apos;s not just a soda.<br />It&apos;s your soundtrack.
+        <div className="relative mx-auto max-w-6xl px-4 py-12 md:py-16 text-center">
+          <Image src="/img/logo-clear.webp" alt="" width={403} height={412} priority
+                 className="mx-auto h-28 w-auto md:h-32 drop-shadow-[0_4px_12px_rgba(0,0,0,0.45)]" />
+          <h1 className="font-display mt-4 leading-[0.9] drop-shadow-[4px_4px_0_#e23b3f]">
+            <span className="block text-3xl md:text-5xl lg:text-6xl text-yellow">The</span>
+            <span className="block text-6xl md:text-8xl lg:text-9xl">Jukebox</span>
+            <span className="block text-4xl md:text-6xl lg:text-7xl mt-1">Soda Shop</span>
           </h1>
+          <p className="font-script text-2xl md:text-4xl text-yellow mt-6">
+            It&apos;s not just a soda. It&apos;s your soundtrack.
+          </p>
+          <p className="mt-2 font-display text-sm md:text-base tracking-[0.2em] uppercase text-cream/80">Rapid City, South Dakota</p>
           <p className="mt-6 text-lg md:text-xl text-cream/90 max-w-2xl mx-auto">
             Handcrafted dirty sodas, flavored waters, custom energy drinks, and sweet treats, every one named after a classic hit. Find the trailer this week or book us for your next event.
           </p>

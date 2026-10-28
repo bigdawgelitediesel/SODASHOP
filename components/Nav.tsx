@@ -24,7 +24,7 @@ export default function Nav() {
       <div className="mx-auto max-w-6xl px-4 flex items-center justify-between h-20">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <Image src="/img/logo-clear.webp" alt="The Jukebox Soda Shop" width={64} height={64} className="h-14 w-14 object-contain" priority />
-          <span className="font-display text-xl leading-tight text-ink hidden sm:block">
+          <span className="font-display text-lg sm:text-xl leading-tight text-ink">
             The Jukebox<br /><span className="text-red">Soda Shop</span>
           </span>
         </Link>
