@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Lilita_One, Pacifico, Nunito } from "next/font/google";
+import { Lilita_One, Pacifico, Nunito, Bree_Serif, Poppins } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -8,6 +8,9 @@ import Announcement from "@/components/Announcement";
 const display = Lilita_One({ weight: "400", subsets: ["latin"], variable: "--font-display" });
 const script = Pacifico({ weight: "400", subsets: ["latin"], variable: "--font-script" });
 const body = Nunito({ subsets: ["latin"], variable: "--font-body" });
+// Match the lettering in the logo, used for the business name on the home page
+const logo = Bree_Serif({ weight: "400", subsets: ["latin"], variable: "--font-logo" });
+const logoSans = Poppins({ weight: "800", subsets: ["latin"], variable: "--font-logo-sans" });
 
 export const metadata: Metadata = {
   title: {
@@ -25,7 +28,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${display.variable} ${script.variable} ${body.variable}`}>
+    <html lang="en" className={`${display.variable} ${script.variable} ${body.variable} ${logo.variable} ${logoSans.variable}`}>
       <body className="min-h-screen flex flex-col">
         <Nav />
         <main className="flex-1">{children}</main>

@@ -31,6 +31,8 @@ body {
 
 .font-display { font-family: var(--font-display); letter-spacing: 0.01em; }
 .font-script { font-family: var(--font-script); }
+.font-logo { font-family: var(--font-logo), Georgia, serif; }
+.font-logo-sans { font-family: var(--font-logo-sans), system-ui, sans-serif; }
 
 @layer components {
 /* checkerboard strip used as a section divider */

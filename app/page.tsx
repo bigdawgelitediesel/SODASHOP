@@ -27,12 +27,10 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/30" />
         <div className="relative mx-auto max-w-6xl px-4 py-12 md:py-16 text-center">
-          <Image src="/img/logo-clear.webp" alt="" width={403} height={412} priority
-                 className="mx-auto h-28 w-auto md:h-32 drop-shadow-[0_4px_12px_rgba(0,0,0,0.45)]" />
-          <h1 className="font-display mt-4 leading-[0.9] drop-shadow-[4px_4px_0_#e23b3f]">
-            <span className="block text-3xl md:text-5xl lg:text-6xl text-yellow">The</span>
-            <span className="block text-6xl md:text-8xl lg:text-9xl">Jukebox</span>
-            <span className="block text-4xl md:text-6xl lg:text-7xl mt-1">Soda Shop</span>
+          <h1 className="leading-none">
+            <span className="block font-logo-sans text-2xl md:text-4xl tracking-[0.15em] text-cream">THE</span>
+            <span className="block font-logo text-6xl md:text-8xl lg:text-9xl text-cream tracking-wide [-webkit-text-stroke:2px_#e23b3f] [paint-order:stroke_fill] drop-shadow-[4px_4px_0_#e23b3f] mt-1">JUKEBOX</span>
+            <span className="block font-logo-sans text-3xl md:text-5xl lg:text-6xl tracking-[0.08em] text-cream mt-2">SODA SHOP</span>
           </h1>
           <p className="font-script text-2xl md:text-4xl text-yellow mt-6">
             It&apos;s not just a soda. It&apos;s your soundtrack.
