@@ -76,3 +76,4 @@ Open items for Jacob:
 - Warm Ups now list two sizes: 16 oz $4.50 and 24 oz $6.50 (`fallMenu.warmUps.sizes`).
 - Home hero now leads with the logo and "The Jukebox Soda Shop" as the big headline; tagline and Rapid City moved underneath. Header shows the business name on phones too.
 - Home hero: removed the logo above the name; "THE / JUKEBOX / SODA SHOP" now set in fonts matching the logo (Bree Serif for JUKEBOX with red outline, Poppins ExtraBold for THE and SODA SHOP; `.font-logo` / `.font-logo-sans`).
+- Home hero: JUKEBOX a little bigger.
