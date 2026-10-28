@@ -78,3 +78,4 @@ Open items for Jacob:
 - Home hero: removed the logo above the name; "THE / JUKEBOX / SODA SHOP" now set in fonts matching the logo (Bree Serif for JUKEBOX with red outline, Poppins ExtraBold for THE and SODA SHOP; `.font-logo` / `.font-logo-sans`).
 - Home hero: JUKEBOX a little bigger.
 - Home hero: tightened the gap between THE and JUKEBOX.
+- Added Jukey the mascot (`public/img/jukey.webp`, background removed) standing on the X of JUKEBOX in the home hero, with a gentle dance animation (`.jukey-dance`, off for reduced-motion users).

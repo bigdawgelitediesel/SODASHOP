@@ -26,10 +26,15 @@ export default function Home() {
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/30" />
-        <div className="relative mx-auto max-w-6xl px-4 py-12 md:py-16 text-center">
+        <div className="relative mx-auto max-w-6xl px-4 pt-20 pb-12 md:pt-24 md:pb-16 text-center">
           <h1 className="leading-none">
             <span className="block font-logo-sans text-2xl md:text-4xl tracking-[0.15em] text-cream">THE</span>
-            <span className="block font-logo text-7xl md:text-[7rem] lg:text-[9.25rem] text-cream tracking-wide [-webkit-text-stroke:2px_#e23b3f] [paint-order:stroke_fill] drop-shadow-[4px_4px_0_#e23b3f] -mt-2 md:-mt-4 lg:-mt-5">JUKEBOX</span>
+            <span className="relative inline-block font-logo text-7xl md:text-[7rem] lg:text-[9.25rem] -mt-2 md:-mt-4 lg:-mt-5">
+              <span className="text-cream tracking-wide [-webkit-text-stroke:2px_#e23b3f] [paint-order:stroke_fill] drop-shadow-[4px_4px_0_#e23b3f]">JUKEBOX</span>
+              {/* Jukey the mascot, standing on the X */}
+              <Image src="/img/jukey.webp" alt="Jukey, the Jukebox Soda Shop mascot" width={408} height={560} priority
+                     className="jukey-dance absolute right-[-0.04em] bottom-[0.78em] h-[1.15em] md:h-[0.85em] w-auto [filter:drop-shadow(0_0_1.5px_#fff7e6)_drop-shadow(0_0_1.5px_#fff7e6)_drop-shadow(3px_3px_0_rgba(0,0,0,0.35))]" />
+            </span>
             <span className="block font-logo-sans text-3xl md:text-5xl lg:text-6xl tracking-[0.08em] text-cream mt-2">SODA SHOP</span>
           </h1>
           <p className="font-script text-2xl md:text-4xl text-yellow mt-6">
