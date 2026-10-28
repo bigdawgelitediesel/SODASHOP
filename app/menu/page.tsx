@@ -35,6 +35,9 @@ export default function MenuPage() {
 
       {/* MAIN DRINKS */}
       <section className="mx-auto max-w-6xl px-4 py-16">
+        <p className="mb-8 card px-5 py-4 text-center font-bold">
+          <Star /> {sugarFreeNote}
+        </p>
         <div className="grid gap-8 lg:grid-cols-2">
           <div id="classic-hits" className="scroll-mt-36">
             <MenuCard title="Classic Hits" sub="Mixed sodas" groups={classicHitGroups} tone="green" />
@@ -55,9 +58,6 @@ export default function MenuPage() {
             </div>
           </div>
         </div>
-        <p className="mt-8 card px-5 py-4 text-center font-bold">
-          <Star /> {sugarFreeNote}
-        </p>
       </section>
 
       {/* PRICING */}
