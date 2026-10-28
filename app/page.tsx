@@ -29,7 +29,7 @@ export default function Home() {
         <div className="relative mx-auto max-w-6xl px-4 py-12 md:py-16 text-center">
           <h1 className="leading-none">
             <span className="block font-logo-sans text-2xl md:text-4xl tracking-[0.15em] text-cream">THE</span>
-            <span className="block font-logo text-7xl md:text-[7rem] lg:text-[9.25rem] text-cream tracking-wide [-webkit-text-stroke:2px_#e23b3f] [paint-order:stroke_fill] drop-shadow-[4px_4px_0_#e23b3f] mt-1">JUKEBOX</span>
+            <span className="block font-logo text-7xl md:text-[7rem] lg:text-[9.25rem] text-cream tracking-wide [-webkit-text-stroke:2px_#e23b3f] [paint-order:stroke_fill] drop-shadow-[4px_4px_0_#e23b3f] -mt-2 md:-mt-4 lg:-mt-5">JUKEBOX</span>
             <span className="block font-logo-sans text-3xl md:text-5xl lg:text-6xl tracking-[0.08em] text-cream mt-2">SODA SHOP</span>
           </h1>
           <p className="font-script text-2xl md:text-4xl text-yellow mt-6">
