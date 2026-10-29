@@ -257,8 +257,8 @@ export const tourWeek = {
     { day: "Monday", date: "Oct 26", title: "Jukebox rehearsing for the upcoming tour", off: true },
     { day: "Tuesday", date: "Oct 27", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Unit 1, Rapid City, SD 57702", time: "7:00 AM to 2:00 PM" },
     { day: "Wednesday", date: "Oct 28", title: "Closed for a private event", off: true, badge: "Private event" },
-    { day: "Thursday", date: "Oct 29", title: "Down for the day", off: true, badge: "Closed today" },
-    { day: "Friday", date: "Oct 30", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 5:30 PM" },
+    { day: "Thursday", date: "Oct 29", title: "Down for the day", off: true, badge: "Closed" },
+    { day: "Friday", date: "Oct 30", title: "Down for the day", off: true, badge: "Closed" },
     { day: "Saturday", date: "Oct 31", title: "Fleet Farm", address: "1001 E Mall Dr, Rapid City, SD 57701", time: "9:00 AM to 6:00 PM", holiday: { label: "🎃 Halloween", note: "It's a Monster Mash at the window! Come in costume and sip something spooky." } },
     { day: "Sunday", date: "Nov 1", title: "Resting between sets", off: true, note: "Hidden Hits drops at 5:00, 6:00, and 7:00 PM." },
   ] as TourStop[],
@@ -290,13 +290,13 @@ export type Announcement = {
 };
 
 export const announcement: Announcement | null = {
-  id: "thursday-oct-29",
+  id: "thu-fri-oct-29-30",
   kicker: "Schedule change",
-  title: "We're down for the day",
+  title: "We're down Thursday and Friday",
   lines: [
-    { label: "Thursday, Oct 29", text: "No trailer stop today. Sorry to miss you!" },
-    { label: "Back Friday, Oct 30", text: "Founders Park, 1510 W Omaha St. 9:00 AM to 5:30 PM" },
+    { label: "Thursday, Oct 29 and Friday, Oct 30", text: "No trailer stops. Sorry to miss you!" },
+    { label: "Back Saturday, Oct 31 🎃", text: "Fleet Farm, 1001 E Mall Dr. 9:00 AM to 6:00 PM. Come in costume!" },
   ],
   link: { href: "/tour", label: "See this week's tour" },
-  expires: "2026-10-30T06:00:00Z", // end of Thursday, Oct 29 in Rapid City (MDT)
+  expires: "2026-10-31T06:00:00Z", // end of Friday, Oct 30 in Rapid City (MDT)
 };
