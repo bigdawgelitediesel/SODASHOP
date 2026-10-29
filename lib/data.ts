@@ -252,7 +252,7 @@ export type TourStop = {
 
 export const tourWeek = {
   range: "October 26 to November 1, 2026",
-  poster: "/menus/tour-2026-10-26.webp" as string | null, // this week's poster image; null hides it
+  poster: null as string | null, // this week's poster image; null hides it. Hidden: "/menus/tour-2026-10-26.webp" still shows Thursday at Founders Park
   stops: [
     { day: "Monday", date: "Oct 26", title: "Jukebox rehearsing for the upcoming tour", off: true },
     { day: "Tuesday", date: "Oct 27", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Unit 1, Rapid City, SD 57702", time: "7:00 AM to 2:00 PM" },
@@ -290,13 +290,13 @@ export type Announcement = {
 };
 
 export const announcement: Announcement | null = {
-  id: "thursday-oct-22",
+  id: "thursday-oct-29",
   kicker: "Schedule change",
-  title: "Thursday, Oct 22 has a new setlist",
+  title: "We're down for the day",
   lines: [
-    { label: "Founders Park", text: "9:00 AM to 4:00 PM (closing early)" },
-    { label: "Stevens vs. Central football game", text: "O'Harra Stadium, South Dakota School of Mines, 561 E Saint Joseph St, Rapid City. 6:00 PM kickoff to end of game" },
+    { label: "Thursday, Oct 29", text: "No trailer stop today. Sorry to miss you!" },
+    { label: "Back Friday, Oct 30", text: "Founders Park, 1510 W Omaha St. 9:00 AM to 5:30 PM" },
   ],
   link: { href: "/tour", label: "See this week's tour" },
-  expires: "2026-10-23T06:00:00Z", // end of Thursday, Oct 22 in Rapid City
+  expires: "2026-10-30T06:00:00Z", // end of Thursday, Oct 29 in Rapid City (MDT)
 };

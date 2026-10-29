@@ -83,3 +83,4 @@ Open items for Jacob:
 - Trial: moved the sugar-free star note to the top of the main drinks on /menu (was below them).
 - Jukey no longer hops; only the wave and peace-sign wiggle remain.
 - Thu Oct 29 changed to "Down for the day" (was Founders Park).
+- Hid the tour poster (it still showed Thursday at Founders Park) and added a pop-up for Thu Oct 29: down for the day, back Friday at Founders Park. Pop-up expires end of Thursday.
