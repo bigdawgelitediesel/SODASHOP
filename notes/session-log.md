@@ -82,3 +82,4 @@ Open items for Jacob:
 - Jukey is now three layers (`jukey-body`, `jukey-arm-right`, `jukey-arm-left`.webp): body hops with a little squash, right hand waves, left peace-sign hand wiggles (`.jukey-hop/.jukey-wave/.jukey-peace` in globals.css). Replaces the stiff whole-body sway.
 - Trial: moved the sugar-free star note to the top of the main drinks on /menu (was below them).
 - Jukey no longer hops; only the wave and peace-sign wiggle remain.
+- Thu Oct 29 changed to "Down for the day" (was Founders Park).
