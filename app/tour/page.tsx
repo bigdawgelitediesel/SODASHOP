@@ -22,10 +22,18 @@ export default function TourPage() {
       <section className="mx-auto max-w-4xl px-4 py-16">
         <ol className="space-y-4">
           {tourWeek.stops.map((s) => (
-            <li key={`${s.day}-${s.title}`} className={`card relative overflow-hidden p-5 md:p-6 grid gap-3 md:grid-cols-[140px_1fr_auto] md:items-center ${s.off ? "bg-cream-2" : ""} ${s.holiday ? "!bg-[#ffd8a8]" : ""}`}>
-              {s.holiday && (
-                <span aria-hidden className="pointer-events-none absolute -top-1 right-3 text-3xl opacity-80 select-none">🦇 👻</span>
-              )}
+            <li key={`${s.day}-${s.title}`}
+                style={s.holiday ? { backgroundColor: s.holiday.bg ?? "#ffd8a8" } : undefined}
+                className={`card relative overflow-hidden p-5 md:p-6 grid gap-3 md:grid-cols-[140px_1fr_auto] md:items-center ${s.off ? "bg-cream-2" : ""}`}>
+              {s.holiday?.mascot ? (
+                <span aria-hidden className="pointer-events-none absolute top-2 right-3 h-16 aspect-[408/560] hidden sm:block">
+                  <Image src="/img/jukey-arm-left.webp" alt="" fill sizes="64px" className="jukey-peace" />
+                  <Image src="/img/jukey-arm-right.webp" alt="" fill sizes="64px" className="jukey-wave" />
+                  <Image src="/img/jukey-body.webp" alt="" fill sizes="64px" />
+                </span>
+              ) : s.holiday?.decor ? (
+                <span aria-hidden className="pointer-events-none absolute -top-1 right-3 text-3xl opacity-80 select-none">{s.holiday.decor}</span>
+              ) : null}
               <div>
                 <p className="font-display text-2xl leading-none">{s.day}</p>
                 <p className="text-ink/60 mt-1">{s.date}</p>
@@ -36,7 +44,7 @@ export default function TourPage() {
                 {s.address && <p className="text-ink/75">{s.address}</p>}
                 {s.time && <p className="font-display mt-1">{s.time}</p>}
                 {s.note && <p className="text-ink/75 mt-1">{s.note}</p>}
-                {s.holiday && <p className="font-script text-lg text-ink mt-2">{s.holiday.note}</p>}
+                {s.holiday?.note && <p className="font-script text-lg text-ink mt-2">{s.holiday.note}</p>}
               </div>
               <div className="md:text-right">
                 {s.address ? (

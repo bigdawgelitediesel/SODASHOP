@@ -16,7 +16,7 @@ This repo is the website for The Jukebox Soda Shop, a family-owned mobile dirty-
 
 ## Common tasks
 
-**Update weekly tour dates:** edit `tourWeek` in `lib/data.ts` (range + the 7 stops, and `poster`: drop the new poster in `public/menus/` with a dated name, or set `poster: null`). Keep `off: true` for days off. Then build, commit, push, deploy.
+**Update weekly tour dates:** edit `tourWeek` in `lib/data.ts` (range + the 7 stops, and `poster`: drop the new poster in `public/menus/` with a dated name, or set `poster: null`). Keep `off: true` for days off (`badge` changes the "Day off" tag). A day can have more than one stop. `holiday` dresses a stop up for a special day (tag, note, tint, emoji or Jukey in the corner). Then build, commit, push, deploy.
 
 **Add or change a drink:** add to the right array in `lib/data.ts` (`classicHits`, `highNotes`, `coolRhythms`, `kidsBop`, or `backstage.*`). Fields: `name`, `mix`, `base` (the soda; Classic Hits are grouped on the menu by soda family, with "Diet X" and "X Zero" under X) and `star` (marks a drink that can be made sugar free except for purées; explained by `sugarFreeNote`).
 

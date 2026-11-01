@@ -247,20 +247,23 @@ export type TourStop = {
   off?: boolean;
   note?: string;
   badge?: string; // label for a day with no stop; defaults to "Day off"
-  holiday?: { label: string; note: string }; // dresses the stop up for a holiday
+  // Dresses a stop up for a holiday or special day: tinted card, tag, optional note,
+  // and a corner decoration (emoji, or Jukey waving when mascot is true).
+  holiday?: { label: string; emoji: string; note?: string; decor?: string; mascot?: boolean; bg?: string };
 };
 
 export const tourWeek = {
-  range: "October 26 to November 1, 2026",
-  poster: null as string | null, // this week's poster image; null hides it. Hidden: "/menus/tour-2026-10-26.webp" still shows Thursday at Founders Park
+  range: "November 2 to November 8, 2026",
+  poster: null as string | null, // this week's poster image in public/menus; null hides it
   stops: [
-    { day: "Monday", date: "Oct 26", title: "Jukebox rehearsing for the upcoming tour", off: true },
-    { day: "Tuesday", date: "Oct 27", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Unit 1, Rapid City, SD 57702", time: "7:00 AM to 2:00 PM" },
-    { day: "Wednesday", date: "Oct 28", title: "Closed for a private event", off: true, badge: "Private event" },
-    { day: "Thursday", date: "Oct 29", title: "Down for the day", off: true, badge: "Closed" },
-    { day: "Friday", date: "Oct 30", title: "Down for the day", off: true, badge: "Closed" },
-    { day: "Saturday", date: "Oct 31", title: "Fleet Farm", address: "1001 E Mall Dr, Rapid City, SD 57701", time: "9:00 AM to 6:00 PM", holiday: { label: "🎃 Halloween", note: "It's a Monster Mash at the window! Come in costume and sip something spooky." } },
-    { day: "Sunday", date: "Nov 1", title: "Resting between sets", off: true, note: "Hidden Hits drops at 5:00, 6:00, and 7:00 PM." },
+    { day: "Monday", date: "Nov 2", title: "Jukebox rehearsing for the upcoming tour", off: true },
+    { day: "Tuesday", date: "Nov 3", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Unit 1, Rapid City, SD 57702", time: "7:00 AM to 2:00 PM" },
+    { day: "Wednesday", date: "Nov 4", title: "Black Hills Studio of the Arts", address: "703 Quincy St, Rapid City, SD", time: "10:30 AM to 6:00 PM", note: "In the back parking lot." },
+    { day: "Thursday", date: "Nov 5", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 2:30 PM", holiday: { label: "🥤 Jukey Day", emoji: "🥤", note: "It's Jukey Day! Come celebrate our favorite cup with us.", mascot: true, bg: "#fff1bd" } },
+    { day: "Thursday", date: "Nov 5", title: "Parent Teacher Conferences", address: "Stevens High School, 4215 Raider Rd, Rapid City, SD 57702", time: "3:30 PM to 7:30 PM", holiday: { label: "🥤 Jukey Day", emoji: "🥤", bg: "#fff1bd" } },
+    { day: "Friday", date: "Nov 6", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 5:30 PM" },
+    { day: "Saturday", date: "Nov 7", title: "BHSU Football Game", address: "1200 University St, Spearfish, SD 57799", time: "11:00 AM to 4:00 PM" },
+    { day: "Sunday", date: "Nov 8", title: "Resting between sets", off: true, note: "Hidden Hits drops at 5:00, 6:00, and 7:00 PM." },
   ] as TourStop[],
 };
 
@@ -289,14 +292,4 @@ export type Announcement = {
   expires: string; // ISO time; Rapid City is UTC-6 in October (MDT)
 };
 
-export const announcement: Announcement | null = {
-  id: "thu-fri-oct-29-30",
-  kicker: "Schedule change",
-  title: "We're down Thursday and Friday",
-  lines: [
-    { label: "Thursday, Oct 29 and Friday, Oct 30", text: "No trailer stops. Sorry to miss you!" },
-    { label: "Back Saturday, Oct 31 🎃", text: "Fleet Farm, 1001 E Mall Dr. 9:00 AM to 6:00 PM. Come in costume!" },
-  ],
-  link: { href: "/tour", label: "See this week's tour" },
-  expires: "2026-10-31T06:00:00Z", // end of Friday, Oct 30 in Rapid City (MDT)
-};
+export const announcement: Announcement | null = null;
