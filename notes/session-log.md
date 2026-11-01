@@ -86,3 +86,4 @@ Open items for Jacob:
 - Hid the tour poster (it still showed Thursday at Founders Park) and added a pop-up for Thu Oct 29: down for the day, back Friday at Founders Park. Pop-up expires end of Thursday.
 - Fri Oct 30 also down for the day. Pop-up now covers Thu and Fri, points to Saturday at Fleet Farm, and expires end of Friday.
 - Tour updated to Nov 2 to Nov 8: Oyate Tue, Black Hills Studio of the Arts Wed (back lot), Jukey Day Thu (Founders Park 9 to 2:30, then Stevens High parent teacher conferences 3:30 to 7:30), Founders Fri, BHSU football in Spearfish Sat. Mon rehearsing and Sun Hidden Hits kept as the usual. `holiday` on tour stops now takes emoji/decor/mascot/bg so it works beyond Halloween. Expired pop-up set to null.
+- Thursday tags now say "Jukey Sticker Day"; removed the celebrate note.
