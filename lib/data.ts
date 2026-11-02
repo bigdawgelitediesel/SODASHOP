@@ -254,7 +254,7 @@ export type TourStop = {
 
 export const tourWeek = {
   range: "November 2 to November 8, 2026",
-  poster: "/menus/tour-2026-11-02.webp" as string | null, // this week's poster image in public/menus; null hides it
+  poster: "/menus/tour-2026-11-02b.webp" as string | null, // this week's poster image in public/menus; null hides it
   stops: [
     { day: "Monday", date: "Nov 2", title: "Jukebox rehearsing for the upcoming tour", off: true },
     { day: "Tuesday", date: "Nov 3", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Unit 1, Rapid City, SD 57702", time: "7:00 AM to 2:00 PM" },
@@ -262,7 +262,7 @@ export const tourWeek = {
     { day: "Thursday", date: "Nov 5", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 2:30 PM", holiday: { label: "🥤 Jukey Sticker Day", emoji: "🥤", mascot: true, bg: "#fff1bd" } },
     { day: "Thursday", date: "Nov 5", title: "Parent Teacher Conferences", address: "Stevens High School, 4215 Raider Rd, Rapid City, SD 57702", time: "3:30 PM to 7:30 PM", holiday: { label: "🥤 Jukey Sticker Day", emoji: "🥤", bg: "#fff1bd" } },
     { day: "Friday", date: "Nov 6", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 5:30 PM" },
-    { day: "Saturday", date: "Nov 7", title: "BHSU Football Game", address: "1200 University St, Spearfish, SD 57799", time: "11:00 AM to 4:00 PM" },
+    { day: "Saturday", date: "Nov 7", title: "BHSU Football Game", address: "1200 University St, Spearfish, SD 57799", time: "1:00 PM to 4:00 PM" },
     { day: "Sunday", date: "Nov 8", title: "Resting between sets", off: true, note: "Hidden Hits with Letter and Light Co. Black Hills. Drops at 5:00, 6:00, and 7:00 PM." },
   ] as TourStop[],
 };

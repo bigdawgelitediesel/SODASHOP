@@ -88,3 +88,4 @@ Open items for Jacob:
 - Tour updated to Nov 2 to Nov 8: Oyate Tue, Black Hills Studio of the Arts Wed (back lot), Jukey Day Thu (Founders Park 9 to 2:30, then Stevens High parent teacher conferences 3:30 to 7:30), Founders Fri, BHSU football in Spearfish Sat. Mon rehearsing and Sun Hidden Hits kept as the usual. `holiday` on tour stops now takes emoji/decor/mascot/bg so it works beyond Halloween. Expired pop-up set to null.
 - Thursday tags now say "Jukey Sticker Day"; removed the celebrate note.
 - Added the Nov 2 to Nov 8 tour poster (`tour-2026-11-02.webp`), removed the old one, and named this week's Hidden Hits partner (Letter and Light Co. Black Hills) on Sunday.
+- Swapped in the updated Nov 2 to Nov 8 poster (`tour-2026-11-02b.webp`) and changed Saturday BHSU football to 1:00 PM to 4:00 PM to match it.
