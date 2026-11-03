@@ -260,7 +260,7 @@ export type TourStop = {
 
 export const tourWeek = {
   range: "November 2 to November 8, 2026",
-  poster: "/menus/tour-2026-11-02b.webp" as string | null, // this week's poster image in public/menus; null hides it
+  poster: null as string | null, // this week's poster image in public/menus; null hides it. Hidden: "/menus/tour-2026-11-02b.webp" still shows Tuesday at Oyate
   stops: [
     { day: "Monday", date: "Nov 2", title: "Jukebox rehearsing for the upcoming tour", off: true },
     { day: "Tuesday", date: "Nov 3", title: "Down for the day", off: true, badge: "Closed" },
@@ -298,4 +298,14 @@ export type Announcement = {
   expires: string; // ISO time; Rapid City is UTC-6 in October (MDT)
 };
 
-export const announcement: Announcement | null = null;
+export const announcement: Announcement | null = {
+  id: "tuesday-nov-3",
+  kicker: "Schedule change",
+  title: "We're down for the day",
+  lines: [
+    { label: "Tuesday, Nov 3", text: "No trailer stop today. Sorry to miss you!" },
+    { label: "Back Wednesday, Nov 4", text: "Black Hills Studio of the Arts, 703 Quincy St (back parking lot). 10:30 AM to 6:00 PM" },
+  ],
+  link: { href: "/tour", label: "See this week's tour" },
+  expires: "2026-11-04T07:00:00Z", // end of Tuesday, Nov 3 in Rapid City (MST)
+};
