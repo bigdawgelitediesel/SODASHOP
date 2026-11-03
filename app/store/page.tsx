@@ -4,8 +4,9 @@ import { products, site } from "@/lib/data";
 import { PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: "Store",
-  description: "Jukebox Soda Shop merch: tees, vinyl-record earrings and necklaces, and retro motel keychains.",
+  title: "Jukebox Merch Store",
+  description: "Jukebox Soda Shop merch: retro tees, vinyl-record earrings and necklaces, and motel keychains from our Rapid City soda trailer.",
+  alternates: { canonical: "/store" },
 };
 
 export default function StorePage() {

@@ -5,8 +5,9 @@ import { PageHero, SectionTitle } from "@/components/ui";
 import { Socials } from "@/components/Socials";
 
 export const metadata: Metadata = {
-  title: "About",
-  description: "The story of The Jukebox Soda Shop, a family-owned mobile soda shop in Rapid City, South Dakota, inspired by the golden age of rock and roll.",
+  title: "About Our Family-Owned Soda Shop",
+  description: "The story of The Jukebox Soda Shop, a family-owned mobile dirty soda trailer in Rapid City, South Dakota, inspired by the golden age of rock and roll.",
+  alternates: { canonical: "/about" },
 };
 
 const values = [

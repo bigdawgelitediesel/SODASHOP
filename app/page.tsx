@@ -28,7 +28,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/30" />
         <div className="relative mx-auto max-w-6xl px-4 pt-20 pb-12 md:pt-24 md:pb-16 text-center">
           <h1 className="leading-none">
-            <span className="block font-logo-sans text-2xl md:text-4xl tracking-[0.15em] text-cream">THE</span>
+            <span className="block font-logo-sans text-2xl md:text-4xl tracking-[0.15em] text-cream">THE</span>{" "}
             <span className="relative inline-block font-logo text-7xl md:text-[7rem] lg:text-[9.25rem] -mt-2 md:-mt-4 lg:-mt-5">
               <span className="text-cream tracking-wide [-webkit-text-stroke:2px_#e23b3f] [paint-order:stroke_fill] drop-shadow-[4px_4px_0_#e23b3f]">JUKEBOX</span>
               {/* Jukey the mascot, standing on the X: one hand waves, the other wiggles a peace sign */}
@@ -38,7 +38,7 @@ export default function Home() {
                 <Image src="/img/jukey-arm-right.webp" alt="" fill sizes="160px" priority className="jukey-wave" />
                 <Image src="/img/jukey-body.webp" alt="" fill sizes="160px" priority />
               </span>
-            </span>
+            </span>{" "}
             <span className="block font-logo-sans text-3xl md:text-5xl lg:text-6xl tracking-[0.08em] text-cream mt-2">SODA SHOP</span>
           </h1>
           <p className="font-script text-2xl md:text-4xl text-yellow mt-6">

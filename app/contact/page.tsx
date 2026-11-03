@@ -6,8 +6,9 @@ import { Socials } from "@/components/Socials";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact",
-  description: "Get in touch with The Jukebox Soda Shop to book an event, ask about the menu, or collaborate.",
+  title: "Contact & Booking",
+  description: "Contact The Jukebox Soda Shop in Rapid City, SD: book the soda trailer for your event, ask about the menu, or set up a Hidden Hits collaboration.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

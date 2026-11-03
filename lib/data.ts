@@ -1,3 +1,9 @@
+// The site's public address, used for link previews, the sitemap, and canonical tags.
+// On Vercel this follows the production domain automatically (jukeboxsoda.com once it is connected).
+export const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : "https://jukebox-soda-shop.vercel.app";
+
 export const site = {
   name: "The Jukebox Soda Shop",
   tagline: "It's not just a soda. It's your soundtrack.",

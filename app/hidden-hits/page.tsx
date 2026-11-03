@@ -6,8 +6,9 @@ import { PageHero, SectionTitle } from "@/components/ui";
 import { Socials } from "@/components/Socials";
 
 export const metadata: Metadata = {
-  title: "Hidden Hits",
-  description: "Hidden Hits is a weekly Sunday treasure hunt around Rapid City. Find a hidden Jukebox record, bring it to the trailer, and win a free drink.",
+  title: "Hidden Hits Sunday Treasure Hunt",
+  description: "Hidden Hits is a weekly Sunday treasure hunt around Rapid City, SD. Find a hidden Jukebox record, bring it to the trailer, and win a free drink.",
+  alternates: { canonical: "/hidden-hits" },
 };
 
 const steps = [

@@ -43,6 +43,12 @@ The repo is connected to Vercel. A push to `main` deploys to production automati
 
 Always run `npm run build` before pushing. TypeScript errors fail the build.
 
+## SEO
+
+- `siteUrl` in `lib/data.ts` is the public address. On Vercel it follows the production domain automatically, so it becomes jukeboxsoda.com once that domain is connected. It feeds `metadataBase` (link previews), canonical tags, `app/sitemap.ts`, and `app/robots.ts`.
+- Each page sets `title`, `description` (keep under 160 characters, say "dirty soda" and "Rapid City" where natural), and `alternates.canonical`. Add new pages to `app/sitemap.ts`.
+- `app/layout.tsx` holds the LocalBusiness (FoodEstablishment) JSON-LD built from `site`.
+
 ## Design rules
 
 - Retro soda-fountain look: cream background, ink navy, red, teal, yellow. Flat colors, thick ink borders, hard offset shadows. No gradients on surfaces, no glossy effects.

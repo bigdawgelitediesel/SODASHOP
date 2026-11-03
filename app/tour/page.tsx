@@ -6,8 +6,9 @@ import { PageHero } from "@/components/ui";
 import { Socials } from "@/components/Socials";
 
 export const metadata: Metadata = {
-  title: "Tour Dates",
-  description: "Where to find The Jukebox Soda Shop trailer this week in Rapid City and the Black Hills.",
+  title: "This Week's Soda Trailer Schedule",
+  description: "Where to find The Jukebox Soda Shop dirty soda trailer this week: daily stops, hours, and addresses around Rapid City and the Black Hills.",
+  alternates: { canonical: "/tour" },
 };
 
 function mapsHref(address: string) {

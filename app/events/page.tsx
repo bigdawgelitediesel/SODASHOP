@@ -4,8 +4,9 @@ import { eventTiers, eventAddOns, eventDiscounts, eventTerms, site } from "@/lib
 import { PageHero, SectionTitle } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: "Book an Event",
-  description: "Event pricing for The Jukebox Soda Shop mobile soda bar: small parties, major events, corporate, weddings, schools, and fundraisers in Rapid City and the Black Hills.",
+  title: "Mobile Soda Bar for Events, Rapid City SD",
+  description: "Book The Jukebox Soda Shop mobile soda bar for weddings, parties, corporate events, schools, and fundraisers in Rapid City and the Black Hills.",
+  alternates: { canonical: "/events" },
 };
 
 const occasions = ["Weddings", "Corporate events", "Employee appreciation", "School functions", "Fundraisers", "Birthday parties", "Festivals & fairs", "Community celebrations"];

@@ -10,8 +10,9 @@ import { FacebookIcon } from "@/components/Socials";
 import MenuJump from "@/components/MenuJump";
 
 export const metadata: Metadata = {
-  title: "Menu",
-  description: "Classic Hits mixed sodas, High Notes energy drinks, Cool Rhythms waters, Kid's Bop, the Backstage Pass menu, Sweet Treats, and the Fall Seasonal menu.",
+  title: "Dirty Soda Menu, Rapid City SD",
+  description: "The Jukebox Soda Shop menu: dirty sodas, custom energy drinks, flavored waters, kids drinks, sweet treats, and seasonal specials in Rapid City, SD.",
+  alternates: { canonical: "/menu" },
 };
 
 const jump = [
