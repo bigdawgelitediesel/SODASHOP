@@ -263,7 +263,7 @@ export const tourWeek = {
   poster: "/menus/tour-2026-11-02b.webp" as string | null, // this week's poster image in public/menus; null hides it
   stops: [
     { day: "Monday", date: "Nov 2", title: "Jukebox rehearsing for the upcoming tour", off: true },
-    { day: "Tuesday", date: "Nov 3", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Unit 1, Rapid City, SD 57702", time: "7:00 AM to 2:00 PM" },
+    { day: "Tuesday", date: "Nov 3", title: "Down for the day", off: true, badge: "Closed" },
     { day: "Wednesday", date: "Nov 4", title: "Black Hills Studio of the Arts", address: "703 Quincy St, Rapid City, SD", time: "10:30 AM to 6:00 PM", note: "In the back parking lot." },
     { day: "Thursday", date: "Nov 5", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 2:30 PM", holiday: { label: "🥤 Jukey Sticker Day", emoji: "🥤", mascot: true, bg: "#fff1bd" } },
     { day: "Thursday", date: "Nov 5", title: "Parent Teacher Conferences", address: "Stevens High School, 4215 Raider Rd, Rapid City, SD 57702", time: "3:30 PM to 7:30 PM", holiday: { label: "🥤 Jukey Sticker Day", emoji: "🥤", bg: "#fff1bd" } },

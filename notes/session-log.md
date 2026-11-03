@@ -90,3 +90,4 @@ Open items for Jacob:
 - Added the Nov 2 to Nov 8 tour poster (`tour-2026-11-02.webp`), removed the old one, and named this week's Hidden Hits partner (Letter and Light Co. Black Hills) on Sunday.
 - Swapped in the updated Nov 2 to Nov 8 poster (`tour-2026-11-02b.webp`) and changed Saturday BHSU football to 1:00 PM to 4:00 PM to match it.
 - SEO fixes: `metadataBase` from `siteUrl` (link previews were pointing at localhost), canonical tag on every page, `app/robots.ts` and `app/sitemap.ts`, FoodEstablishment JSON-LD in the layout, spaces in the home h1 so it reads "THE JUKEBOX SODA SHOP", keyword titles and descriptions (all under 160 chars).
+- Tue Nov 3: removed the Oyate Health Center stop; now "Down for the day".
