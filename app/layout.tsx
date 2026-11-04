@@ -11,7 +11,7 @@ const script = Pacifico({ weight: "400", subsets: ["latin"], variable: "--font-s
 const body = Nunito({ subsets: ["latin"], variable: "--font-body" });
 // Match the lettering in the logo, used for the business name on the home page
 const logo = Bree_Serif({ weight: "400", subsets: ["latin"], variable: "--font-logo" });
-const logoSans = Poppins({ weight: "800", subsets: ["latin"], variable: "--font-logo-sans" });
+const logoSans = Poppins({ weight: ["600", "800"], style: ["normal", "italic"], subsets: ["latin"], variable: "--font-logo-sans" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
