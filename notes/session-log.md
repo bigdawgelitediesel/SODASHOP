@@ -93,3 +93,4 @@ Open items for Jacob:
 - Tue Nov 3: removed the Oyate Health Center stop; now "Down for the day".
 - Hid the Nov 2 to Nov 8 poster (shows Tuesday at Oyate) and added a pop-up for Tue Nov 3: down for the day, back Wednesday at Black Hills Studio of the Arts. Expires end of Tuesday (MST).
 - Tiny Toons flavors: "Seasonal Flavor" tag replaced with "White Chocolate Chip Pumpkin".
+- Tiny Toons blurb: removed "Ask about our current seasonal flavor."
