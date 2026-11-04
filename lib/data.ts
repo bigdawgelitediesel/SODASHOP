@@ -13,7 +13,6 @@ export const site = {
   email: "jukeboxsodashop@gmail.com",
   facebook: "https://www.facebook.com/profile.php?id=61572962648824",
   instagram: "https://www.instagram.com/jukeboxsodashop/",
-  tiktok: "https://www.tiktok.com/@jukeboxsodashop",
   originalStore: "https://pepper-rabbit-3jjr.squarespace.com/store",
 };
 

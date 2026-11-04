@@ -95,3 +95,4 @@ Open items for Jacob:
 - Tiny Toons flavors: "Seasonal Flavor" tag replaced with "White Chocolate Chip Pumpkin".
 - Tiny Toons blurb: removed "Ask about our current seasonal flavor."
 - Home hero tagline now in Poppins semibold italic (was Pacifico script). Loaded Poppins 600/800 + italic; THE and SODA SHOP pinned to extrabold.
+- Removed TikTok from the site (social icons and Google business data); only Facebook and Instagram remain.

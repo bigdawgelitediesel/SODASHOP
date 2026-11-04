@@ -11,9 +11,6 @@ const icons = {
   instagram: (
     <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
   ),
-  tiktok: (
-    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden><path d="M16.5 3c.3 2.3 1.7 3.8 4 4v3.1c-1.5 0-2.9-.5-4-1.3v6.4a5.6 5.6 0 1 1-5.6-5.6c.3 0 .6 0 .9.1v3.2a2.5 2.5 0 1 0 1.6 2.3V3h3.1z"/></svg>
-  ),
 };
 
 export function Socials({ dark = false }: { dark?: boolean }) {
@@ -23,7 +20,6 @@ export function Socials({ dark = false }: { dark?: boolean }) {
   const items = [
     { href: site.facebook, label: "Facebook", icon: icons.facebook },
     { href: site.instagram, label: "Instagram", icon: icons.instagram },
-    { href: site.tiktok, label: "TikTok", icon: icons.tiktok },
   ];
   return (
     <div className="flex gap-3">

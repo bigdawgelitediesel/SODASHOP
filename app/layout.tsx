@@ -49,7 +49,7 @@ const businessJsonLd = {
     { "@type": "City", name: "Rapid City, SD" },
     { "@type": "Place", name: "Black Hills, South Dakota" },
   ],
-  sameAs: [site.facebook, site.instagram, site.tiktok],
+  sameAs: [site.facebook, site.instagram],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
