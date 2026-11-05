@@ -259,14 +259,14 @@ export type TourStop = {
 
 export const tourWeek = {
   range: "November 2 to November 8, 2026",
-  poster: null as string | null, // this week's poster image in public/menus; null hides it. Hidden: "/menus/tour-2026-11-02b.webp" still shows Tuesday at Oyate
+  poster: "/menus/tour-2026-11-02c.webp" as string | null, // this week's poster image in public/menus; null hides it
   stops: [
     { day: "Monday", date: "Nov 2", title: "Jukebox rehearsing for the upcoming tour", off: true },
     { day: "Tuesday", date: "Nov 3", title: "Down for the day", off: true, badge: "Closed" },
     { day: "Wednesday", date: "Nov 4", title: "Black Hills Studio of the Arts", address: "703 Quincy St, Rapid City, SD", time: "10:30 AM to 6:00 PM", note: "In the back parking lot." },
     { day: "Thursday", date: "Nov 5", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 2:30 PM", holiday: { label: "🥤 Jukey Sticker Day", emoji: "🥤", mascot: true, bg: "#fff1bd" } },
     { day: "Thursday", date: "Nov 5", title: "Parent Teacher Conferences", address: "Stevens High School, 4215 Raider Rd, Rapid City, SD 57702", time: "3:30 PM to 7:30 PM", holiday: { label: "🥤 Jukey Sticker Day", emoji: "🥤", bg: "#fff1bd" } },
-    { day: "Friday", date: "Nov 6", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 5:30 PM" },
+    { day: "Friday", date: "Nov 6", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 4:00 PM" },
     { day: "Saturday", date: "Nov 7", title: "BHSU Football Game", address: "1200 University St, Spearfish, SD 57799", time: "1:00 PM to 4:00 PM" },
     { day: "Sunday", date: "Nov 8", title: "Resting between sets", off: true, note: "Hidden Hits with Letter and Light Co. Black Hills. Drops at 5:00, 6:00, and 7:00 PM." },
   ] as TourStop[],

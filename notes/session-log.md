@@ -96,3 +96,4 @@ Open items for Jacob:
 - Tiny Toons blurb: removed "Ask about our current seasonal flavor."
 - Home hero tagline now in Poppins semibold italic (was Pacifico script). Loaded Poppins 600/800 + italic; THE and SODA SHOP pinned to extrabold.
 - Removed TikTok from the site (social icons and Google business data); only Facebook and Instagram remain.
+- Fri Nov 6 Founders Park now 9:00 AM to 4:00 PM; swapped in the updated poster (`tour-2026-11-02c.webp`) and showed it again.
