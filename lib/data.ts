@@ -259,7 +259,7 @@ export type TourStop = {
 
 export const tourWeek = {
   range: "November 9 to November 15, 2026",
-  poster: null as string | null, // this week's poster image in public/menus; null hides it
+  poster: "/menus/tour-2026-11-09.webp" as string | null, // this week's poster image in public/menus; null hides it
   stops: [
     { day: "Monday", date: "Nov 9", title: "Jukebox rehearsing for the upcoming tour", off: true },
     { day: "Tuesday", date: "Nov 10", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Unit 1, Rapid City, SD 57702", time: "7:00 AM to 2:00 PM" },
