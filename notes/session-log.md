@@ -98,3 +98,4 @@ Open items for Jacob:
 - Removed TikTok from the site (social icons and Google business data); only Facebook and Instagram remain.
 - Fri Nov 6 Founders Park now 9:00 AM to 4:00 PM; swapped in the updated poster (`tour-2026-11-02c.webp`) and showed it again.
 - Created Facebook/Instagram "Come find the trailer" ads in `marketing/ads/` (3 designs × square + story, ad text and targeting in its README). Not part of the website.
+- Tour updated to Nov 9 to Nov 15 (Oyate Tue, off Wed/Thu, Robbinsdale Elementary Fri, Happy Tails Haven Horse Rescue Sat, Hidden Hits with Littles Ones Trading Sun). Last week's poster removed; new poster pending.

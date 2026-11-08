@@ -258,17 +258,16 @@ export type TourStop = {
 };
 
 export const tourWeek = {
-  range: "November 2 to November 8, 2026",
-  poster: "/menus/tour-2026-11-02c.webp" as string | null, // this week's poster image in public/menus; null hides it
+  range: "November 9 to November 15, 2026",
+  poster: null as string | null, // this week's poster image in public/menus; null hides it
   stops: [
-    { day: "Monday", date: "Nov 2", title: "Jukebox rehearsing for the upcoming tour", off: true },
-    { day: "Tuesday", date: "Nov 3", title: "Down for the day", off: true, badge: "Closed" },
-    { day: "Wednesday", date: "Nov 4", title: "Black Hills Studio of the Arts", address: "703 Quincy St, Rapid City, SD", time: "10:30 AM to 6:00 PM", note: "In the back parking lot." },
-    { day: "Thursday", date: "Nov 5", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 2:30 PM", holiday: { label: "🥤 Jukey Sticker Day", emoji: "🥤", mascot: true, bg: "#fff1bd" } },
-    { day: "Thursday", date: "Nov 5", title: "Parent Teacher Conferences", address: "Stevens High School, 4215 Raider Rd, Rapid City, SD 57702", time: "3:30 PM to 7:30 PM", holiday: { label: "🥤 Jukey Sticker Day", emoji: "🥤", bg: "#fff1bd" } },
-    { day: "Friday", date: "Nov 6", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 4:00 PM" },
-    { day: "Saturday", date: "Nov 7", title: "BHSU Football Game", address: "1200 University St, Spearfish, SD 57799", time: "1:00 PM to 4:00 PM" },
-    { day: "Sunday", date: "Nov 8", title: "Resting between sets", off: true, note: "Hidden Hits with Letter and Light Co. Black Hills. Drops at 5:00, 6:00, and 7:00 PM." },
+    { day: "Monday", date: "Nov 9", title: "Jukebox rehearsing for the upcoming tour", off: true },
+    { day: "Tuesday", date: "Nov 10", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Unit 1, Rapid City, SD 57702", time: "7:00 AM to 2:00 PM" },
+    { day: "Wednesday", date: "Nov 11", title: "Jukebox off", off: true },
+    { day: "Thursday", date: "Nov 12", title: "Jukebox off", off: true },
+    { day: "Friday", date: "Nov 13", title: "Robbinsdale Elementary", address: "424 E Indiana St, Rapid City, SD 57701", time: "10:30 AM to 1:00 PM" },
+    { day: "Saturday", date: "Nov 14", title: "Happy Tails Haven Horse Rescue", address: "841 E Saint Patrick St, Rapid City, SD", time: "9:00 AM to 2:00 PM" },
+    { day: "Sunday", date: "Nov 15", title: "Resting between sets", off: true, note: "Hidden Hits with Littles Ones Trading. Drops at 5:00, 6:00, and 7:00 PM." },
   ] as TourStop[],
 };
 
@@ -297,14 +296,4 @@ export type Announcement = {
   expires: string; // ISO time; Rapid City is UTC-6 in October (MDT)
 };
 
-export const announcement: Announcement | null = {
-  id: "tuesday-nov-3",
-  kicker: "Schedule change",
-  title: "We're down for the day",
-  lines: [
-    { label: "Tuesday, Nov 3", text: "No trailer stop today. Sorry to miss you!" },
-    { label: "Back Wednesday, Nov 4", text: "Black Hills Studio of the Arts, 703 Quincy St (back parking lot). 10:30 AM to 6:00 PM" },
-  ],
-  link: { href: "/tour", label: "See this week's tour" },
-  expires: "2026-11-04T07:00:00Z", // end of Tuesday, Nov 3 in Rapid City (MST)
-};
+export const announcement: Announcement | null = null;
