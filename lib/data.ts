@@ -259,7 +259,7 @@ export type TourStop = {
 
 export const tourWeek = {
   range: "November 9 to November 15, 2026",
-  poster: "/menus/tour-2026-11-09.webp" as string | null, // this week's poster image in public/menus; null hides it
+  poster: "/menus/tour-2026-11-09b.webp" as string | null, // this week's poster image in public/menus; null hides it
   stops: [
     { day: "Monday", date: "Nov 9", title: "Jukebox rehearsing for the upcoming tour", off: true },
     { day: "Tuesday", date: "Nov 10", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Unit 1, Rapid City, SD 57702", time: "7:00 AM to 2:00 PM" },
@@ -267,7 +267,7 @@ export const tourWeek = {
     { day: "Thursday", date: "Nov 12", title: "Jukebox off", off: true },
     { day: "Friday", date: "Nov 13", title: "Robbinsdale Elementary", address: "424 E Indiana St, Rapid City, SD 57701", time: "10:30 AM to 1:00 PM" },
     { day: "Saturday", date: "Nov 14", title: "Happy Tails Haven Horse Rescue", address: "841 E Saint Patrick St, Rapid City, SD", time: "9:00 AM to 2:00 PM" },
-    { day: "Sunday", date: "Nov 15", title: "Resting between sets", off: true, note: "Hidden Hits with Littles Ones Trading. Drops at 5:00, 6:00, and 7:00 PM." },
+    { day: "Sunday", date: "Nov 15", title: "Resting between sets", off: true, note: "Hidden Hits with Little Ones Trading. Drops at 5:00, 6:00, and 7:00 PM." },
   ] as TourStop[],
 };
 
