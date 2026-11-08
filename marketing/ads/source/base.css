@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,600;0,800;1,600&family=Lilita+One&family=Pacifico&family=Nunito:wght@600;800&display=block');
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--cream:#fff7e6;--ink:#16213a;--red:#e23b3f;--teal:#26a7b5;--yellow:#f8c740}
+body{width:var(--w);height:var(--h);overflow:hidden;font-family:Nunito,sans-serif;color:var(--cream)}
+.ad{position:relative;width:var(--w);height:var(--h);overflow:hidden}
+.jukebox{font-family:'Bree Serif';color:var(--cream);-webkit-text-stroke:3px var(--red);paint-order:stroke fill;text-shadow:6px 6px 0 var(--red);line-height:.95}
+.sans{font-family:Poppins;font-weight:800;letter-spacing:.08em}
+.it{font-family:Poppins;font-style:italic;font-weight:600}
+.btn{display:inline-block;font-family:'Lilita One';background:var(--yellow);color:var(--ink);border:5px solid var(--ink);box-shadow:8px 8px 0 var(--ink);border-radius:999px}
+.card{background:var(--cream);color:var(--ink);border:6px solid var(--ink);border-radius:36px;box-shadow:12px 12px 0 var(--ink)}
+.checker{height:36px;background:repeating-conic-gradient(var(--ink) 0 25%,var(--cream) 0 50%) 0 0/36px 36px}
