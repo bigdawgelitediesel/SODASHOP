@@ -101,3 +101,4 @@ Open items for Jacob:
 - Tour updated to Nov 9 to Nov 15 (Oyate Tue, off Wed/Thu, Robbinsdale Elementary Fri, Happy Tails Haven Horse Rescue Sat, Hidden Hits with Littles Ones Trading Sun). Last week's poster removed; new poster pending.
 - Added the Nov 9 to Nov 15 tour poster (`tour-2026-11-09.webp`).
 - Hidden Hits partner corrected to "Little Ones Trading"; swapped in the corrected poster (`tour-2026-11-09b.webp`).
+- Swapped in the updated Nov 9 to Nov 15 poster (`tour-2026-11-09c.webp`); Saturday now "Happy Tails Haven Horse Rescue and Sanctuary" with a "Fall Festival" note, matching it.
