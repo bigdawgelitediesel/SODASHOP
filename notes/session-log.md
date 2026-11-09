@@ -102,3 +102,4 @@ Open items for Jacob:
 - Added the Nov 9 to Nov 15 tour poster (`tour-2026-11-09.webp`).
 - Hidden Hits partner corrected to "Little Ones Trading"; swapped in the corrected poster (`tour-2026-11-09b.webp`).
 - Swapped in the updated Nov 9 to Nov 15 poster (`tour-2026-11-09c.webp`); Saturday now "Happy Tails Haven Horse Rescue and Sanctuary" with a "Fall Festival" note, matching it.
+- Warm Ups 16 oz price raised to $5.50 (24 oz stays $6.50).

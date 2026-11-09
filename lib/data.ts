@@ -204,7 +204,7 @@ export const fallMenu: {
   warmUps: {
     title: "Warm Ups / Hot Chocolates",
     sizes: [
-      { size: "16 oz", price: "$4.50" },
+      { size: "16 oz", price: "$5.50" },
       { size: "24 oz", price: "$6.50" },
     ],
     items: [
