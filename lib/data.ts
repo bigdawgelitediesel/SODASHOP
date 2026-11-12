@@ -10,7 +10,7 @@ export const site = {
   city: "Rapid City, South Dakota",
   phone: "(605) 490-5383",
   phoneHref: "tel:+16054905383",
-  email: "jukeboxsodashop@gmail.com",
+  email: "contact@jukeboxsoda.com",
   facebook: "https://www.facebook.com/profile.php?id=61572962648824",
   instagram: "https://www.instagram.com/jukeboxsodashop/",
   originalStore: "https://pepper-rabbit-3jjr.squarespace.com/store",
