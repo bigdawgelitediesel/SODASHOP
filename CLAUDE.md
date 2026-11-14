@@ -2,7 +2,7 @@
 
 This repo is the website for The Jukebox Soda Shop, a family-owned mobile dirty-soda trailer in Rapid City, South Dakota. It replaced the old Squarespace site at jukeboxsoda.com.
 
-- Live: https://jukebox-soda-shop.vercel.app
+- Live: https://www.jukeboxsoda.com (jukeboxsoda.com redirects to www; https://jukebox-soda-shop.vercel.app also works)
 - Stack: Next.js 16 (App Router), Tailwind 4, TypeScript. Fully static, no database, no backend.
 
 ## Where things live
@@ -59,6 +59,6 @@ Always run `npm run build` before pushing. TypeScript errors fail the build.
 
 ## Open items
 
-- Custom domain: jukeboxsoda.com still points at Squarespace. Add it in Vercel (Settings > Domains) and update DNS when ready to switch.
+- Domain is live on Vercel. DNS is at GoDaddy (A @ 76.76.21.21, CNAME www to Vercel). GoDaddy once reset the A record to "WebsiteBuilder Site": if the site shows a GoDaddy placeholder, check that record first. Keep the Microsoft 365 email records (MX, TXT, autodiscover, selector1/2, etc.).
 - Tour dates are hard-coded weekly. A Google Sheet or simple JSON feed could replace that later.
 - A real contact-form backend (Formspree, Resend) would replace the mailto form.

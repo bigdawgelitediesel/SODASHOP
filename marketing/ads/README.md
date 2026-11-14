@@ -8,8 +8,7 @@ Three ads, each in two sizes:
 | 2. Fall drinks: "Name that tune. Then sip it." | `2-fall-drinks-square.png` | `2-fall-drinks-story.png` |
 | 3. Jukey: "Jukey's on tour!" | `3-jukey-tour-square.png` | `3-jukey-tour-story.png` |
 
-Link every ad to the tour page: https://jukebox-soda-shop.vercel.app/tour
-(switch to https://jukeboxsoda.com/tour once the domain is connected).
+Link every ad to the tour page: https://www.jukeboxsoda.com/tour
 Button: **Learn more** (or **Get directions** if Meta offers it for your page).
 
 ## Ad text
