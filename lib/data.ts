@@ -267,7 +267,7 @@ export const tourWeek = {
     { day: "Thursday", date: "Nov 19", title: "Knollwood Heights Elementary", address: "1701 Downing St, Rapid City, SD 57701", time: "10:15 AM to 1:00 PM" },
     { day: "Friday", date: "Nov 20", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 4:00 PM" },
     { day: "Saturday", date: "Nov 21", title: "Turkmas Bazaar at Faith Lutheran Church", address: "17 Indiana St, Rapid City, SD 57701", time: "8:00 AM to 2:00 PM" },
-    { day: "Sunday", date: "Nov 22", title: "Resting between sets", off: true, note: "Hidden Hits with Rapid Energy Nutrition." },
+    { day: "Sunday", date: "Nov 22", title: "Resting between sets", off: true, note: "Hidden Hits with Rapid Energy Nutrition. Drops at 5:00, 6:00, and 7:00 PM." },
   ] as TourStop[],
 };
 

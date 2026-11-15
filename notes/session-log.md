@@ -108,3 +108,4 @@ Open items for Jacob:
 - Business email switched back to jukeboxsodashop@gmail.com for now (contact@jukeboxsoda.com not working yet).
 - Tour updated to Nov 16 to Nov 22 (Oyate Tue, off Wed, Knollwood Heights Elementary Thu, Founders Fri, Faith Lutheran Church Sat 8 to 2, Hidden Hits with Rapid Energy Nutrition Sun). Old poster removed.
 - Added the Nov 16 to Nov 22 poster (`tour-2026-11-16.webp`); Saturday now "Turkmas Bazaar at Faith Lutheran Church" to match it.
+- Sunday Hidden Hits drop times (5, 6, 7 PM) added back.
