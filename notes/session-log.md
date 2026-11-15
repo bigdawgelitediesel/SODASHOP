@@ -106,3 +106,4 @@ Open items for Jacob:
 - Business email changed to contact@jukeboxsoda.com (footer, contact page, contact form, Google business data).
 - jukeboxsoda.com is live on the new site (checked: both addresses load it, jukeboxsoda.com redirects to www, secure certificate valid, canonical/sitemap/link previews now use www.jukeboxsoda.com, contact@ email and this week's tour showing). Ads README now links to jukeboxsoda.com/tour.
 - Business email switched back to jukeboxsodashop@gmail.com for now (contact@jukeboxsoda.com not working yet).
+- Tour updated to Nov 16 to Nov 22 (Oyate Tue, off Wed, Knollwood Heights Elementary Thu, Founders Fri, Faith Lutheran Church Sat 8 to 2, Hidden Hits with Rapid Energy Nutrition Sun). Old poster removed.
