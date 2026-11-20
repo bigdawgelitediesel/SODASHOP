@@ -113,3 +113,4 @@ Open items for Jacob:
 - Fri Nov 20: Founders Park stop replaced with "Closed today"; poster hidden (it still shows Friday at Founders Park).
 - Pop-up for Fri Nov 20: closed today, back Saturday at the Turkmas Bazaar. Expires end of Friday (MST).
 - Upgraded Next.js 16.4.2 to 16.4.6 (security fix flagged by the build). npm audit: 0 vulnerabilities. All pages checked at phone and desktop sizes.
+- Added site icons from the jukebox logo: app/favicon.ico (16-64px), app/icon.png (192px), app/apple-icon.png (180px, cream background). Removed app/icon.webp (Next.js ignores .webp icons, so the site had none).
