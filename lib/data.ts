@@ -296,4 +296,14 @@ export type Announcement = {
   expires: string; // ISO time; Rapid City is UTC-6 in October (MDT)
 };
 
-export const announcement: Announcement | null = null;
+export const announcement: Announcement | null = {
+  id: "friday-nov-20",
+  kicker: "Schedule change",
+  title: "We're closed today",
+  lines: [
+    { label: "Friday, Nov 20", text: "No trailer stop today. Sorry to miss you!" },
+    { label: "Back Saturday, Nov 21", text: "Turkmas Bazaar at Faith Lutheran Church, 17 Indiana St. 8:00 AM to 2:00 PM" },
+  ],
+  link: { href: "/tour", label: "See this week's tour" },
+  expires: "2026-11-21T07:00:00Z", // end of Friday, Nov 20 in Rapid City (MST)
+};

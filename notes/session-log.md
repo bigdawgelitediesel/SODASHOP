@@ -111,3 +111,4 @@ Open items for Jacob:
 - Sunday Hidden Hits drop times (5, 6, 7 PM) added back.
 - Business email switched back to contact@jukeboxsoda.com.
 - Fri Nov 20: Founders Park stop replaced with "Closed today"; poster hidden (it still shows Friday at Founders Park).
+- Pop-up for Fri Nov 20: closed today, back Saturday at the Turkmas Bazaar. Expires end of Friday (MST).
