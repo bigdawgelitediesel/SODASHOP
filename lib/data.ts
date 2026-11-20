@@ -259,13 +259,13 @@ export type TourStop = {
 
 export const tourWeek = {
   range: "November 16 to November 22, 2026",
-  poster: "/menus/tour-2026-11-16.webp" as string | null, // this week's poster image in public/menus; null hides it
+  poster: null as string | null, // this week's poster image in public/menus; null hides it. Hidden: "/menus/tour-2026-11-16.webp" still shows Friday at Founders Park
   stops: [
     { day: "Monday", date: "Nov 16", title: "Jukebox rehearsing for the upcoming tour", off: true },
     { day: "Tuesday", date: "Nov 17", title: "Oyate Health Center", address: "3200 Canyon Lake Dr, Unit 1, Rapid City, SD 57702", time: "7:00 AM to 2:00 PM" },
     { day: "Wednesday", date: "Nov 18", title: "Jukebox off", off: true },
     { day: "Thursday", date: "Nov 19", title: "Knollwood Heights Elementary", address: "1701 Downing St, Rapid City, SD 57701", time: "10:15 AM to 1:00 PM" },
-    { day: "Friday", date: "Nov 20", title: "Founders Park", address: "1510 W Omaha St, Rapid City, SD 57701", time: "9:00 AM to 4:00 PM" },
+    { day: "Friday", date: "Nov 20", title: "Closed today", off: true, badge: "Closed" },
     { day: "Saturday", date: "Nov 21", title: "Turkmas Bazaar at Faith Lutheran Church", address: "17 Indiana St, Rapid City, SD 57701", time: "8:00 AM to 2:00 PM" },
     { day: "Sunday", date: "Nov 22", title: "Resting between sets", off: true, note: "Hidden Hits with Rapid Energy Nutrition. Drops at 5:00, 6:00, and 7:00 PM." },
   ] as TourStop[],

@@ -110,3 +110,4 @@ Open items for Jacob:
 - Added the Nov 16 to Nov 22 poster (`tour-2026-11-16.webp`); Saturday now "Turkmas Bazaar at Faith Lutheran Church" to match it.
 - Sunday Hidden Hits drop times (5, 6, 7 PM) added back.
 - Business email switched back to contact@jukeboxsoda.com.
+- Fri Nov 20: Founders Park stop replaced with "Closed today"; poster hidden (it still shows Friday at Founders Park).
