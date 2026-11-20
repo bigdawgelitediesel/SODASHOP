@@ -305,5 +305,5 @@ export const announcement: Announcement | null = {
     { label: "Back Saturday, Nov 21", text: "Turkmas Bazaar at Faith Lutheran Church, 17 Indiana St. 8:00 AM to 2:00 PM" },
   ],
   link: { href: "/tour", label: "See this week's tour" },
-  expires: "2026-11-21T07:00:00Z", // end of Friday, Nov 20 in Rapid City (MST)
+  expires: "2026-11-20T23:00:00Z", // 4:00 PM Friday, Nov 20 in Rapid City (MST)
 };
