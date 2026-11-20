@@ -112,3 +112,4 @@ Open items for Jacob:
 - Business email switched back to contact@jukeboxsoda.com.
 - Fri Nov 20: Founders Park stop replaced with "Closed today"; poster hidden (it still shows Friday at Founders Park).
 - Pop-up for Fri Nov 20: closed today, back Saturday at the Turkmas Bazaar. Expires end of Friday (MST).
+- Upgraded Next.js 16.4.2 to 16.4.6 (security fix flagged by the build). npm audit: 0 vulnerabilities. All pages checked at phone and desktop sizes.
